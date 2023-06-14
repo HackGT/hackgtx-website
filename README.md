@@ -1,3 +1,3 @@
-## HackGT9 site
+## HackGT X
 
-Time for a retro reset.
+A journal of memories.

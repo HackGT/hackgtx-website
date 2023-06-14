@@ -9,34 +9,15 @@ interface MainProps {
 const Main = (mp: MainProps) => {
   return (
     <div className={styles.title_box}>
-      <Center>
-        <Image
-          draggable="false"
-          className={styles.logo}
-          objectFit="contain"
-          alt="logo"
-          boxSize={"60vw"}
-          src="/img/main/logo/hackgt9logo.png"
-        />
-      </Center>
-      <HStack>
-        <Image
-          draggable="false"
-          className={styles.logoBig}
-          objectFit="contain"
-          alt="logo"
-          boxSize={"45vw"}
-          zIndex="1"
-          src="/img/main/logo/hackgt9logo.png"
-        />
         <Center>
           <VStack className={styles.title_stack}>
-            <Text className={styles.title}>HackGT 9</Text>
+            <Text className={styles.title}>HackGT X</Text>
             <Box>
               <Center className={styles.description}>
-                <Text className={styles.motto}>Retro Reset</Text>
+                <Text className={styles.motto}>A JOURNAL OF MEMORIES</Text>
               </Center>
             </Box>
+            <Text className={styles.description}>October 13th to 15th</Text>
             <Center>
               <Link href="https://registration.hexlabs.org" target="_blank">
                 {/* <Box className={styles.register_button}>
@@ -58,17 +39,12 @@ const Main = (mp: MainProps) => {
             <Text id={styles.register_button_text}>Register Now</Text>
             <ImageWrapper id={styles.loading_bar} src="/img/main/registerBar.png" alt="register bar"></ImageWrapper>
             </VStack> */}
-                  <ImageWrapper
-                    id={styles.registerNow}
-                    alt="register now button"
-                    src="/img/main/mentor_volunteer_button.png"
-                  ></ImageWrapper>
+
                 </Center>
               </Link>
             </Center>
           </VStack>
         </Center>
-      </HStack>
     </div>
   );
 };

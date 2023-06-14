@@ -15,24 +15,19 @@ interface NavProps {
 }
 
 const Navbar = (np: NavProps) => {
-  useEffect(() => {
-    window.onscroll = function () {
-      scrollFunction();
-    };
-  }, []);
 
   return (
     <div>
       <Box className={styles.navbarContainer}>.</Box>
       <a
-        href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white"
+        href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white"
         target="_blank"
         rel="noreferrer"
         id={styles.mlh}
       >
         <img
-          src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg"
-          alt="Major League Hacking 2023 Hackathon Season"
+          src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg"
+          alt="Major League Hacking 2024 Hackathon Season"
         />
       </a>
       <Center>
@@ -86,7 +81,7 @@ const Navbar = (np: NavProps) => {
               <MenuItem>About</MenuItem>
             </Link>
             <Link href="#tracks_and_challenges">
-              <MenuItem>Modes</MenuItem>
+              <MenuItem>Tracks</MenuItem>
             </Link>
             <Link href="#faq">
               <MenuItem>FAQ</MenuItem>
@@ -97,6 +92,9 @@ const Navbar = (np: NavProps) => {
             <Link href="#sponsors">
               <MenuItem>Sponsors</MenuItem>
             </Link>
+            <Link href="#sponsors">
+              <MenuItem>Apply</MenuItem>
+            </Link>
           </MenuList>
         </Menu>
       </div>
@@ -104,60 +102,5 @@ const Navbar = (np: NavProps) => {
   );
 };
 
-function scrollFunction() {
-  var winScroll = document.documentElement.scrollTop;
-  const sections = document.querySelectorAll("section");
-  let curr: string | null = "";
-  let currSec = sections[1];
-  sections.forEach((section) => {
-    const sectionTop = section.offsetTop;
-    if (scrollY > sectionTop) {
-      curr = section.getAttribute("id");
-      currSec = section;
-    }
-  });
-  var scrollable = 0;
-  var width = 0;
-  switch (curr) {
-    case null:
-      break;
-    case "home":
-      scrollable = currSec.clientHeight;
-      width = 5 + 10 * ((winScroll - currSec.offsetTop) / scrollable);
-      break;
-    case "about":
-      scrollable = currSec.clientHeight;
-      width = 15 + 15 * ((winScroll - currSec.offsetTop) / scrollable);
-      break;
-    case "tracks_and_challenges":
-      scrollable = currSec.clientHeight;
-      width = 30 + 2 * ((winScroll - currSec.offsetTop) / scrollable);
-      break;
-    case "general_tracks":
-      scrollable = currSec.clientHeight;
-      width = 32 + 5 * ((winScroll - currSec.offsetTop) / scrollable);
-      break;
-    case "emerging_tracks":
-      scrollable = currSec.clientHeight;
-      width = 37 + 5 * ((winScroll - currSec.offsetTop) / scrollable);
-      break;
-    case "faq":
-      scrollable = currSec.clientHeight;
-      width = 42 + 13 * ((winScroll - currSec.offsetTop) / scrollable);
-      break;
-    case "schedule":
-      scrollable = currSec.clientHeight;
-      width = 55 + 13 * ((winScroll - currSec.offsetTop) / scrollable);
-      break;
-    case "sponsors":
-      scrollable = currSec.clientHeight;
-      width = 80 + 44 * ((winScroll - currSec.offsetTop) / scrollable);
-      break;
-  }
-  const bar = document.getElementById("myBar");
-  if (bar) {
-    bar.style.width = width + "%";
-  }
-}
 
 export default Navbar;

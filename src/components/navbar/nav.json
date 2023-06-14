@@ -9,7 +9,7 @@
       "id": "#about"
     },
     {
-      "name": "MODES",
+      "name": "TRACKS",
       "id": "#tracks_and_challenges"
     },
     {
@@ -22,6 +22,10 @@
     },
     {
       "name": "SPONSORS",
+      "id": "#sponsors"
+    },
+    {
+      "name": "APPLY",
       "id": "#sponsors"
     }
   ]

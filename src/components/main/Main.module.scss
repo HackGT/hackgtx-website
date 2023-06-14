@@ -7,7 +7,7 @@ $mask-base-height: 40px;
 $loading-bar-transition: background-position 2s ease;
 
 .title_box {
-  color: whitesmoke;
+  color: black;
   padding-top: 12vh;
   padding-bottom: $mid;
   overflow: hidden;
@@ -17,10 +17,10 @@ $loading-bar-transition: background-position 2s ease;
 }
 .title {
   z-index: 5;
-  font-size: 10vw;
-  font-family: "Retronoid";
+  font-size: 9vw;
+  font-family: "Scrapbook";
   font-style: italic;
-  color: #d90d8e;
+  color: black;
 }
 
 /* swap out image, it's obviously a decoy */
@@ -38,11 +38,11 @@ $loading-bar-transition: background-position 2s ease;
   position: relative;
   top: -6vh;
   font-style: normal;
-  font-family: "Retronoid";
-  font-size: 5vw;
+  font-family: "Scrapbook";
+  font-size: 3vw;
   text-align: center;
   .motto {
-    color: #eae5e5;
+    color: black;
     /* only works in safari apparently */
     -webkit-text-stroke: 2px solid #ffffff;
   }

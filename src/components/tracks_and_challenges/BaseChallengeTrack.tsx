@@ -1,5 +1,5 @@
 import { Text, HStack, Center, VStack, Wrap, Image, Box, Link } from "@chakra-ui/react";
-import BaseComponent from "./BaseComponent";
+// import BaseComponent from "./BaseComponent";
 
 import styles from "./TracksChallenges.module.scss";
 
@@ -10,8 +10,8 @@ const ChallengeTrackBase = () => {
   return (
     <Center className={styles.container}>
       <VStack>
-        <Text className={styles.header}>Modes</Text>
-        <Text className={styles.subtext}>
+        <Text className={styles.header}>Tracks</Text>
+        {/* <Text className={styles.subtext}>
           Are you an experienced or a beginner player in the hackathon game? We have two modes for
           you to select from. Click each mode to learn more.
         </Text>
@@ -96,7 +96,7 @@ const ChallengeTrackBase = () => {
           <Text className={styles.eligibility}>
             🎮 Have little to no previous technical experience 🎮
           </Text>
-        </div>
+        </div> */}
       </VStack>
     </Center>
   );

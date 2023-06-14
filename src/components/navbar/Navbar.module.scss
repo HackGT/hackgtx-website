@@ -7,9 +7,9 @@
   width: 75vw;
   .component {
     font-size: 23px;
-    font-family: "Titillium Web";
+    font-family: "Scrapbook";
     font-weight: bold;
-    color: white;
+    color: black;
   }
   .component:hover {
     text-decoration: underline;
@@ -22,44 +22,8 @@
   height: 13vh;
   opacity: 85%;
   box-shadow: 10px 10px 100px 10px #331444;
-  background: #231373d6;
 }
 
-.navbg {
-  -webkit-mask-image: url("/svg/about/navbar_mask.svg");
-  mask-image: url("/svg/about/navbar_mask.svg");
-  -webkit-mask-size: cover;
-  mask-size: cover;
-  z-index: 120;
-  width: 85vw;
-  position: fixed;
-  height: 2vh;
-  left: 6vw;
-  right: 6vw;
-  top: 2.5vh;
-  color: #e277be;
-  background: #e277be;
-  border-radius: 32px;
-}
-
-.progressBar {
-  -webkit-mask-image: url("/svg/about/navbar_mask.svg");
-  mask-image: url("/svg/about/navbar_mask.svg");
-  -webkit-mask-size: cover;
-  mask-size: cover;
-  z-index: 120;
-  min-width: 5vw;
-  width: 5vw;
-  max-width: 85vw;
-  position: fixed;
-  height: 2vh;
-  left: 6vw;
-  right: 6vw;
-  top: 2.5vh;
-  border-radius: 32px;
-  color: #00ddff;
-  background-color: #00ddff;
-}
 .menu {
   visibility: hidden;
 }
