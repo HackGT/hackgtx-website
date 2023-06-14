@@ -1,0 +1,91 @@
+@import "../styles/variables.scss";
+
+.container {
+  .mainBox {
+    z-index: 10;
+    position: relative;
+    width: 45vw;
+    top: 15vh;
+    background: linear-gradient(152.13deg, #8e3480 5.27%, #1d2038 96.54%);
+    box-shadow: inset -2px -2px 10px #07081d, inset 2px 2px 10px 1px radgradba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 60px 5px #361030;
+    border-radius: 25px;
+    padding-bottom: 12rem;
+    #tetris_blocks {
+      max-height: 10vw;
+      position: absolute;
+      bottom: 2rem;
+      right: 2rem;
+    }
+  }
+  :root {
+    font-size: 100%;
+  }
+  .title {
+    z-index: 2;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+    font-family: "Retronoid";
+  }
+
+  .subtitle {
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Titillium Web";
+    font-weight: bold;
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  .bodyText {
+    z-index: 2;
+    padding: 1.5rem 3rem 0 3rem;
+    font-family: "Titillium Web";
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding-top: 20vh;
+    .mainBox {
+      width:70vw;
+      top: 15vh;
+    }
+    .bodyText {
+      top: 8rem;
+      font-weight: 400;
+    }
+    .title {
+      font-size: 5rem;
+      text-align: center;
+      top: 0rem;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    .mainBox {
+      width: 75vw;
+      top: 5vh;
+    }
+    .bodyText {
+      top: 25%;
+      font-weight: 400;
+      font-size: 16px;
+      padding: 1.5rem 1.2rem 0 1.2rem;
+    }
+    .title {
+      font-size: 10vw;
+      top: 2vh;
+    }
+    .subtitle {
+      font-size: $subHeaderMobile;
+    }
+  }
+}
