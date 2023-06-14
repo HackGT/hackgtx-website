@@ -1,5 +1,4 @@
 import { Text, HStack, Center, VStack, Wrap, Image, Box, Link } from "@chakra-ui/react";
-// import BaseComponent from "./BaseComponent";
 
 import styles from "./TracksChallenges.module.scss";
 
