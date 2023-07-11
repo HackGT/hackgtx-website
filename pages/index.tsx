@@ -4,7 +4,7 @@ import About from "../src/components/about/About";
 // import Faq from "../src/components/faq/Faq";
 import Main from "../src/components/main/Main";
 import Sponsors from "../src/components/sponsors/Sponsors";
-import TrackChallenge from "../src/components/tracks_and_challenges/BaseChallengeTrack";
+import TracksChallenges from "../src/components/tracks_and_challenges/TracksChallenges";
 
 import links from "../src/components/navbar/nav.json";
 import Navbar from "../src/components/navbar/Navbar";
@@ -14,6 +14,7 @@ import GeneralTracks from "../src/components/tracks_and_challenges/general_track
 import EmergingTracks from "../src/components/tracks_and_challenges/emerging_tracks/EmergingTracks";
 import Reimbursement from "../src/components/tracks_and_challenges/reimbursement/Reimbursement";
 import ImageWrapper from "../src/components/image/ImageWrapper";
+import Image from "next/image"
 
 // import Image from "@chakra-ui/react";
 
@@ -29,7 +30,7 @@ const Home: NextPage = (props) => {
           href="/icon/logo/filled_in_hackgt9_logo.png"
         />
       </Head>
-      <Navbar anchors={links.components} />
+      {/* <Navbar anchors={links.components} /> */}
 
       <section id="home">
         <Main toJump="#registration" />
@@ -38,7 +39,7 @@ const Home: NextPage = (props) => {
         <About />
       </section>
       <section id="tracks_and_challenges">
-        <TrackChallenge />
+        <TracksChallenges />
       </section>
       <section id="general_tracks">
         {/* <GeneralTracks /> */}
