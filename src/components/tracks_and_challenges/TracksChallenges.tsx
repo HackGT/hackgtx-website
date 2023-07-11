@@ -1,23 +1,4 @@
-import { VStack, Text } from "@chakra-ui/react";
 import Image from "next/image";
-
-import styles from "./TracksChallenges.module.scss";
-
-// const TracksChallenges = () => {
-//     return (
-//         <div className={styles.container}>
-//             <VStack>
-//                 <Text className={styles.title}>Tracks</Text>
-//                 <div className="textWrap">
-//                     <img src="/img/tracks/track1.png"/>
-//                     <div className={styles.text}>Hello</div>
-//                 </div>
-//             </VStack>
-//         </div>
-//     )
-// }
-
-// export default TracksChallenges;
 
 const TracksChallenges = () => {
   return (
