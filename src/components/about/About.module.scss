@@ -1,26 +1,9 @@
 @import "../styles/variables.scss";
 
 .container {
-  .mainBox {
-    z-index: 10;
-    position: relative;
-    width: 45vw;
-    top: 15vh;
-    background: linear-gradient(152.13deg, #8e3480 5.27%, #1d2038 96.54%);
-    box-shadow: inset -2px -2px 10px #07081d, inset 2px 2px 10px 1px radgradba(255, 255, 255, 0.2);
-    box-shadow: 0px 0px 60px 5px #361030;
-    border-radius: 25px;
-    padding-bottom: 12rem;
-    #tetris_blocks {
-      max-height: 10vw;
-      position: absolute;
-      bottom: 2rem;
-      right: 2rem;
-    }
-  }
-  :root {
-    font-size: 100%;
-  }
+  position: relative;
+  padding-bottom: 40rem;
+
   .title {
     z-index: 2;
     font-size: 4rem;
@@ -29,64 +12,165 @@
     padding-left: 5rem;
     color: black;
     font-family: "Scrapbook";
-  }
-
-  .subtitle {
-    color: whitesmoke;
-    font-size: 2rem;
-    text-align: center;
-    font-family: "Titillium Web";
-    font-weight: bold;
-    padding: 2rem 2rem 0 2rem;
+    position: absolute;
   }
 
   .bodyText {
-    z-index: 2;
-    padding: 1.5rem 3rem 0 3rem;
-    font-family: "Titillium Web";
-    font-size: 16px;
+    z-index: 3;
+    padding-top: 10rem;
+    padding-left: 37rem;
+    padding-right: 20rem;
+    font-size: 200%;
     text-align: center;
     color: #ffffff;
+    position: absolute;
+  }
+
+  .maskCircle {
+    z-index: 1;
+    position: absolute;
+  }
+
+  .maskContentBox {
+    z-index: 1;
+    padding-left: 25rem;
+    height: 50rem;
+    position: absolute;
+  }
+
+  .banner_mask {
+    z-index: 2;
+    position: absolute;
+    height: 20rem;
+    top: -8rem;
+    padding-left: 90rem;
+  }
+
+  .registration_panel {
+    z-index: 1;
+    padding-top: 45rem;
+    padding-left: 15rem;
+    position: absolute;
+  }
+
+  .registrationText {
+    z-index: 3;
+    padding-top: 47rem;
+    padding-left: 25rem;
+    text-align: center;
+    color: #608774;
+    font-family: "Scrapbook";
+    font-size: 250%;
+    position: absolute;
   }
 }
 
 @media (max-width: 1200px) {
   .container {
-    padding-top: 20vh;
-    .mainBox {
-      width:70vw;
-      top: 15vh;
-    }
-    .bodyText {
-      top: 8rem;
-      font-weight: 400;
-    }
     .title {
-      font-size: 5rem;
+      font-size: 2rem;
+      padding-top: 1rem;
+      padding-left: 1rem;
+    }
+
+    .bodyText {
+      padding-top: 20rem;
+      padding-left: 10%;
+      padding-right: 15%;
+      font-size: 150%;
+      color: #ffffff;
+      position: absolute;
+    }
+
+    .maskCircle {
+      position: absolute;
+      width: 30%;
+    }
+
+    .maskContentBox {
+      padding-left: 0;
+      width: 90%;
+    }
+
+    .banner_mask {
+      z-index: 2;
+      position: absolute;
+      width: 30%;
+      top: 9rem;
+      right: 0;
+    }
+
+    .registration_panel {
+      z-index: 1;
+      padding-top: 45rem;
+      padding-left: 15rem;
+      position: absolute;
+    }
+
+    .registrationText {
+      z-index: 3;
+      padding-top: 47rem;
+      padding-left: 25rem;
       text-align: center;
-      top: 0rem;
+      color: #608774;
+      font-family: "Scrapbook";
+      font-size: 250%;
+      position: absolute;
     }
   }
 }
 
 @media (max-width: 700px) {
   .container {
-    .mainBox {
-      width: 75vw;
-      top: 5vh;
-    }
-    .bodyText {
-      top: 25%;
-      font-weight: 400;
-      font-size: 16px;
-      padding: 1.5rem 1.2rem 0 1.2rem;
-    }
     .title {
-      font-size: 10vw;
-      top: 2vh;
+      font-size: 2rem;
+      padding-top: 1rem;
+      padding-left: 1rem;
     }
-    .subtitle {
-      font-size: $subHeaderMobile;
+
+    .bodyText {
+      padding-top: 20rem;
+      padding-left: 3rem;
+      font-size: 10px;
+      color: #ffffff;
+      position: absolute;
+    }
+
+    .maskCircle {
+      position: absolute;
+      width: 30%;
+    }
+
+    .maskContentBox {
+      padding-left: 0;
+      width: 90%;
+    }
+
+    .banner_mask {
+      z-index: 2;
+      position: absolute;
+      width: 30%;
+      top: 9rem;
+      right: 0;
+    }
+
+    .registration_panel {
+      z-index: 1;
+      width: 90%;
+      padding-top: 30rem;
+      padding-left: 2rem;
+      position: absolute;
+    }
+
+    .registrationText {
+      z-index: 3;
+      padding-top: 31rem;
+      padding-left: 4rem;
+      text-align: center;
+      color: #608774;
+      font-family: "Scrapbook";
+      font-size: 100%;
+      position: absolute;
     }
   }
 }
