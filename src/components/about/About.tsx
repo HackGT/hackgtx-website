@@ -69,7 +69,7 @@ const About = () => {
         }}>
         about
       </div>
-      <img
+      <Image
         className="notepad"
         style={{
           width: 979,
@@ -79,9 +79,10 @@ const About = () => {
           position: "absolute",
         }}
         src="/img/about/notepad.png"
+        alt="notepad"
       />
-      <img
-        className="UntitledArtwork31"
+      <Image
+        className="banner"
         style={{
           width: 437,
           height: 302,
@@ -90,6 +91,7 @@ const About = () => {
           position: "absolute",
         }}
         src="/img/about/banner_mask.svg"
+        alt="banner"
       />
       <div
         className="Description"
@@ -107,12 +109,12 @@ const About = () => {
         Innovate, reimagine, and shape the future this year at HackGT X: Journal
         of Memories from October 13th - 15th! The tenth iteration of our
         flagship hackathon is bringing a hack to remember to all our HackGT
-        creators. This year's event will be back to an in-person experience, so
+        creators. This year&apos;s event will be back to an in-person experience, so
         get ready for a weekend packed with action! Buff your hacking stats,
         make incredible team-ups, and build your community among the 1,500+
         passionate hackers we invite each year.
       </div>
-      <img
+      <Image
         className="registrationBox"
         style={{
           width: 984,
@@ -122,9 +124,10 @@ const About = () => {
           position: "absolute",
         }}
         src="/img/about/reg-box.png"
+        alt="registration grid box"
       />
       <div
-        className="RegistrationWillOpenOn"
+        className="OpenRegistration"
         style={{
           left: 202,
           top: 772,
@@ -138,7 +141,7 @@ const About = () => {
         Registration will open on{" "}
       </div>
       <div
-        className="September12023"
+        className="StartDate"
         style={{
           left: 299,
           top: 859,
@@ -151,7 +154,7 @@ const About = () => {
         }}>
         September 1, 2023
       </div>
-      <img
+      <Image
         className="Laptop"
         style={{
           width: 291,
@@ -161,6 +164,7 @@ const About = () => {
           position: "absolute",
         }}
         src="/img/about/laptop.png"
+        alt="laptop"
       />
     </div>
   );

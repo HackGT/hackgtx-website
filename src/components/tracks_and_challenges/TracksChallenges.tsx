@@ -35,6 +35,7 @@ const TracksChallenges = () => {
         objectFit="cover"
         quality={100}
         objectPosition="center"
+        alt="Sketchbook Grid Background"
       />
       <div
         className="Tab5"

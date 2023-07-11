@@ -14,7 +14,7 @@ const TD = (tdp: TDProps) => {
 
   return (
     <VStack spacing={"0px"} className={styles.td}>
-      <Image src={track1} className={styles.track} />
+      <Image src={track1} className={styles.track} alt="track and description"/>
     </VStack>
   );
 };
