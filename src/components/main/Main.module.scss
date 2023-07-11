@@ -8,8 +8,8 @@ $loading-bar-transition: background-position 2s ease;
 
 .title_box {
   color: black;
-  padding-top: 12vh;
-  padding-bottom: $mid;
+  position: relative;
+  padding-top: 20rem;
   overflow: hidden;
 }
 .title_stack {

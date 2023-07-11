@@ -1,43 +1,167 @@
 import { Text, Image, Center, VStack } from "@chakra-ui/react";
 import styles from "./About.module.scss";
+import NextImage from "next/image";
+import Head from "next/head";
 const About = () => {
   return (
-    <div className={styles.container}>
-      <Image
-        className={styles.maskCircle}
-        alt="mask_circle"
-        src="svg/about/mask_group.svg"
+    <div
+      className="About"
+      style={{
+        width: 1440,
+        height: 1024,
+        position: "relative",
+        background: "white",
+      }}>
+      <NextImage
+        src="/img/global/grid-background-image.png"
+        layout="fill"
+        objectFit="cover"
+        quality={100}
+        objectPosition="center"
       />
-      <Text className={styles.title}> about</Text>
-      {/* <Image
-        className={styles.banner_mask}
-        alt="banner_mask"
-        src="svg/about/banner_mask.svg"
-      /> */}
-      <Image
-        className={styles.maskContentBox}
-        alt="mask_content_box"
-        src="svg/about/mask_content_box.svg"
+      <div
+        className="MaskGroup"
+        style={{
+          width: 512,
+          height: 512,
+          left: -194,
+          top: 137,
+          position: "absolute",
+        }}>
+        <div
+          className="Ellipse24"
+          style={{
+            width: 512,
+            height: 512,
+            left: 0,
+            top: 0,
+            position: "absolute",
+            background: "#6FC5B5",
+            borderRadius: 9999,
+          }}
+        />
+        <div
+          className="Ellipse23"
+          style={{
+            width: 512,
+            height: 512,
+            left: 0,
+            top: 0,
+            position: "absolute",
+            background: "#6FC5B5",
+            borderRadius: 9999,
+          }}
+        />
+      </div>
+      <div
+        className="About"
+        style={{
+          width: 234,
+          height: 171,
+          left: 105,
+          top: 203,
+          position: "absolute",
+          color: "black",
+          fontSize: 64,
+          fontFamily: "Scrapbook",
+          fontWeight: "500",
+          wordWrap: "break-word",
+        }}>
+        about
+      </div>
+      <img
+        className="notepad"
+        style={{
+          width: 979,
+          height: 585,
+          left: 339,
+          top: 188,
+          position: "absolute",
+        }}
+        src="/img/about/notepad.png"
       />
-      <Text className={styles.bodyText}>
+      <img
+        className="UntitledArtwork31"
+        style={{
+          width: 437,
+          height: 302,
+          left: 1037,
+          top: 87,
+          position: "absolute",
+        }}
+        src="/img/about/banner_mask.svg"
+      />
+      <div
+        className="Description"
+        style={{
+          width: 675,
+          left: 523,
+          top: 225,
+          position: "absolute",
+          color: "white",
+          fontSize: 30,
+          fontFamily: "Comic Sans MS",
+          fontWeight: "500",
+          wordWrap: "break-word",
+        }}>
         Innovate, reimagine, and shape the future this year at HackGT X: Journal
         of Memories from October 13th - 15th! The tenth iteration of our
         flagship hackathon is bringing a hack to remember to all our HackGT
-        creators. This {"year's"}{" "} event will be back to an in-person experience, so
+        creators. This year's event will be back to an in-person experience, so
         get ready for a weekend packed with action! Buff your hacking stats,
         make incredible team-ups, and build your community among the 1,500+
         passionate hackers we invite each year.
-      </Text>
-      <Image
-        className={styles.registration_panel}
-        alt="registration_panel"
-        src="svg/about/registration_panel.svg"
+      </div>
+      <img
+        className="registrationBox"
+        style={{
+          width: 984,
+          height: 243,
+          left: 86,
+          top: 737,
+          position: "absolute",
+        }}
+        src="/img/about/reg-box.png"
       />
-      <Text className={styles.registrationText}>
-        Registration will open on
-        <br />
-        July 17th, 2023
-      </Text>
+      <div
+        className="RegistrationWillOpenOn"
+        style={{
+          left: 202,
+          top: 772,
+          position: "absolute",
+          color: "#608774",
+          fontSize: 50,
+          fontFamily: "Scrapbook",
+          fontWeight: "500",
+          wordWrap: "break-word",
+        }}>
+        Registration will open on{" "}
+      </div>
+      <div
+        className="September12023"
+        style={{
+          left: 299,
+          top: 859,
+          position: "absolute",
+          color: "#466455",
+          fontSize: 50,
+          fontFamily: "Scrapbook",
+          fontWeight: "500",
+          wordWrap: "break-word",
+        }}>
+        September 1, 2023
+      </div>
+      <img
+        className="Laptop"
+        style={{
+          width: 291,
+          height: 238,
+          left: 973,
+          top: 737,
+          position: "absolute",
+        }}
+        src="/img/about/laptop.png"
+      />
     </div>
   );
 };

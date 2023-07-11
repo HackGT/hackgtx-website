@@ -1,9 +1,17 @@
 import { HStack, VStack, Text, Link, Image } from "@chakra-ui/react";
+import NextImage from "next/image"
 import styles from "./Footer.module.scss";
 
 const Footer = () => {
   return (
     <div className={styles.footer_container}>
+      <NextImage
+        src="/img/global/grid-background-image.png"
+        layout="fill"
+        objectFit="cover"
+        quality={100}
+        objectPosition="center"
+      />
       <footer>
         <VStack className={styles.footer_content}>
           <HStack>

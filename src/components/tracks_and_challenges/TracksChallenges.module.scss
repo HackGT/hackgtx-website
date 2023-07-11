@@ -12,6 +12,16 @@ $track_width: 70vw;
   z-index: 2;
 }
 
+.title {
+  z-index: 2;
+  font-size: 4rem;
+  text-align: left;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  color: black;
+  font-family: "Scrapbook";
+}
+
 .subtext {
   color: whitesmoke;
   padding-left: 20vw;
@@ -68,6 +78,16 @@ $track_width: 70vw;
   padding-top: 40vh;
   padding-bottom: $p2;
   position: relative;
+}
+
+.textWrap {
+  position: relative;
+  text-align: center;
+}
+
+.text {
+  position: absolute;
+  top: 75%;
 }
 
 #general_track_container {
@@ -172,7 +192,8 @@ $track_width: 70vw;
 .track_container {
   position: relative;
   margin: auto;
-  box-shadow: inset 2px 2px 15px rgba(255, 255, 255, 0.7), inset -2px -2px 10px #07081d;
+  box-shadow: inset 2px 2px 15px rgba(255, 255, 255, 0.7),
+    inset -2px -2px 10px #07081d;
   background: linear-gradient(
     93.55deg,
     rgba(241, 163, 212, 0.45) 50.74%,
