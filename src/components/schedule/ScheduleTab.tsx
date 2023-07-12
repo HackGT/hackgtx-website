@@ -11,7 +11,14 @@ type Props = {
 // note: remove the Center and VStack Component when bring in the schedule
 
 const ScheduleTab: React.FC<Props> = (props: Props) => (
-  <div className={styles.container}>
+  <div
+    className={styles.container}
+    style={{
+      width: 1440,
+      height: 1024,
+      position: "relative",
+    }}
+    >
       <NextImage
         src="/img/global/grid-background-image.png"
         layout="fill"
@@ -20,8 +27,32 @@ const ScheduleTab: React.FC<Props> = (props: Props) => (
         objectPosition="center"
       />
     <VStack>
-      <Text className={styles.title}>Schedule</Text>
-      <Text className={styles.subtext}>coming soon :D</Text>
+      <div
+        style={{
+          left: 600,
+          top: 100,
+          position: "absolute",
+          color: "#000000",
+          fontSize: 50,
+          fontFamily: "Scrapbook",
+          fontWeight: "500",
+          wordWrap: "break-word",
+        }}>
+        Schedule
+      </div>
+      <div
+        style={{
+          left: 640,
+          top: 200,
+          position: "absolute",
+          color: "#000000",
+          fontSize: 20,
+          fontFamily: "Scrapbook",
+          fontWeight: "20",
+          wordWrap: "break-word",
+        }}>
+        coming soon :D
+      </div>
     </VStack>
   </div>
 );

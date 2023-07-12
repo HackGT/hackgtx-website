@@ -17,7 +17,14 @@ interface MainProps {
 
 const Main = (mp: MainProps) => {
   return (
-    <div className={styles.title_box}>
+    <div
+      className={styles.title_box}
+      style={{
+        width: 1440,
+        height: 1024,
+        position: "relative",
+      }}
+    >
       <NextImage
         src="/img/global/grid-background-image.png"
         layout="fill"
@@ -26,7 +33,7 @@ const Main = (mp: MainProps) => {
         objectPosition="center"
       />
       <Center>
-        <VStack className={styles.title_stack}>
+        {/* <VStack className={styles.title_stack}>
           <Text className={styles.title}>HackGT X</Text>
           <Box>
             <Center className={styles.description}>
@@ -34,30 +41,50 @@ const Main = (mp: MainProps) => {
             </Center>
           </Box>
           <Text className={styles.description}>October 13th to 15th</Text>
-          <Center>
-            <Link href="https://registration.hexlabs.org" target="_blank">
-              {/* <Box className={styles.register_button}>
-              <div className={styles.register_button_outer} />
-              <div className={styles.register_button_inner} />
-              <div className={styles.loading_bar_position}>
-                <div className={styles.loading_bar_mask}>
-                  <div className={styles.loading_bar} />
-                </div>
-              </div>
-              <Center>
-                <Text className={styles.register_button_text}>Register Now!</Text>
-              </Center>
-            </Box> */}
-              <Center id={styles.register_button}>
-                {/* <ImageWrapper id={styles.register_button_outer} src="/img/main/blackBoxShadow.png" alt="register box shadow"></ImageWrapper>
-            <ImageWrapper id={styles.register_button_inner} src="/img/main/blackBox.png" alt="register box"></ImageWrapper>
-            <VStack  id={styles.register_stack}>
-            <Text id={styles.register_button_text}>Register Now</Text>
-            <ImageWrapper id={styles.loading_bar} src="/img/main/registerBar.png" alt="register bar"></ImageWrapper>
-            </VStack> */}
-              </Center>
-            </Link>
-          </Center>
+        </VStack> */}
+        <VStack>
+          <div
+          className="OpenRegistration"
+          style={{
+            left: 450,
+            top: 200,
+            position: "absolute",
+            color: "#000000",
+            fontSize: 100,
+            fontFamily: "Scrapbook",
+            fontWeight: "500",
+            wordWrap: "break-word",
+          }}>
+          HackGT X
+        </div>
+        <div
+          className="OpenRegistration"
+          style={{
+            left: 350,
+            top: 400,
+            position: "absolute",
+            color: "#000000",
+            fontSize: 50,
+            fontFamily: "Scrapbook",
+            fontWeight: "500",
+            wordWrap: "break-word",
+          }}>
+          A JOURNAL OF MEMORIES
+        </div>
+        <div
+          className="OpenRegistration"
+          style={{
+            left: 550,
+            top: 500,
+            position: "absolute",
+            color: "#000000",
+            fontSize: 30,
+            fontFamily: "Scrapbook",
+            fontWeight: "500",
+            wordWrap: "break-word",
+          }}>
+          October 13th to 15th
+        </div>
         </VStack>
       </Center>
     </div>

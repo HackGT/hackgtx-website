@@ -1,9 +1,10 @@
 import Image from "next/image";
+import styles from "./TracksChallenges.module.scss";
 
 const TracksChallenges = () => {
   return (
     <div
-      className="GeneralTracks"
+      className={styles.tracksChallenges}
       style={{
         width: 1440,
         height: 1024,

@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import About from "../src/components/about/About";
-// import Faq from "../src/components/faq/Faq";
+import Faq from "../src/components/faq/Faq";
 import Main from "../src/components/main/Main";
 import Sponsors from "../src/components/sponsors/Sponsors";
 import TracksChallenges from "../src/components/tracks_and_challenges/TracksChallenges";
@@ -43,7 +43,7 @@ const Home: NextPage = (props) => {
         {/* <EmergingTracks /> */}
       </section>
       <section id="faq">
-        {/* <Faq /> */}
+        <Faq />
       </section>
       <section id="schedule">
         <ScheduleTab virtual={false} />

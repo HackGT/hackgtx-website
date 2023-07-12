@@ -5,7 +5,7 @@ import Head from "next/head";
 const About = () => {
   return (
     <div
-      className="About"
+      className={styles.about}
       style={{
         width: 1440,
         height: 1024,
@@ -20,7 +20,7 @@ const About = () => {
         objectPosition="center"
       />
       <div
-        className="MaskGroup"
+        className="mask-group"
         style={{
           width: 512,
           height: 512,
@@ -70,7 +70,7 @@ const About = () => {
         about
       </div>
       <Image
-        className="notepad"
+        className={styles.notepad}
         style={{
           width: 979,
           height: 585,
@@ -152,7 +152,7 @@ const About = () => {
           fontWeight: "500",
           wordWrap: "break-word",
         }}>
-        September 1, 2023
+        July 20, 2023
       </div>
       <Image
         className="Laptop"
