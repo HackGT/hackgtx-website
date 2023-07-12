@@ -4,7 +4,12 @@ import styles from "./Footer.module.scss";
 
 const Footer = () => {
   return (
-    <div className={styles.footer_container}>
+    <div className={styles.footer_container}
+    style={{
+      width: 1440,
+      position: "relative",
+    }}
+    >
       <NextImage
         src="/img/global/grid-background-image.png"
         layout="fill"
