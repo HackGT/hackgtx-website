@@ -533,10 +533,10 @@ const TracksChallenges = () => {
           fontWeight: "500",
           wordWrap: "break-word",
         }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
+        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
         sapien. Donec dignissim sed dolor id aliquet. Curabitur ornare
         vestibulum dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit.
+        elit. */}
       </div>
       <div
         className="Text"
@@ -551,10 +551,10 @@ const TracksChallenges = () => {
           fontWeight: "500",
           wordWrap: "break-word",
         }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
+        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
         sapien. Donec dignissim sed dolor id aliquet. Curabitur ornare
         vestibulum dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit.
+        elit. */}
       </div>
       <div
         className="Text"
@@ -569,10 +569,10 @@ const TracksChallenges = () => {
           fontWeight: "500",
           wordWrap: "break-word",
         }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
+        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
         sapien. Donec dignissim sed dolor id aliquet. Curabitur ornare
         vestibulum dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit.
+        elit. */}
       </div>
       <div
         className="Text"
@@ -587,10 +587,10 @@ const TracksChallenges = () => {
           fontWeight: "500",
           wordWrap: "break-word",
         }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
+        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
         sapien. Donec dignissim sed dolor id aliquet. Curabitur ornare
         vestibulum dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit.
+        elit. */}
       </div>
       <div
         className="Text"
@@ -605,10 +605,10 @@ const TracksChallenges = () => {
           fontWeight: "500",
           wordWrap: "break-word",
         }}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
+        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
         sapien. Donec dignissim sed dolor id aliquet. Curabitur ornare
         vestibulum dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit.
+        elit. */}
       </div>
     </div>
   );
