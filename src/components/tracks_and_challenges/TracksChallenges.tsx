@@ -529,14 +529,15 @@ const TracksChallenges = () => {
           position: "absolute",
           color: "black",
           fontSize: 20,
-          fontFamily: "Be Vietnam",
+          fontFamily: "Helvetica",
           fontWeight: "500",
           wordWrap: "break-word",
         }}>
-        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
-        sapien. Donec dignissim sed dolor id aliquet. Curabitur ornare
-        vestibulum dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. */}
+        For the HealthTech track, teams can leverage technology to create
+        innovative solutions that improve healthcare accessibility, promote
+        mental well-being, and foster personal growth. Just like cherished
+        memories, their project captures the essence of nurturing a healthier
+        future.
       </div>
       <div
         className="Text"
@@ -547,14 +548,15 @@ const TracksChallenges = () => {
           position: "absolute",
           color: "black",
           fontSize: 20,
-          fontFamily: "Be Vietnam",
+          fontFamily: "Helvetica",
           fontWeight: "500",
           wordWrap: "break-word",
         }}>
-        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
-        sapien. Donec dignissim sed dolor id aliquet. Curabitur ornare
-        vestibulum dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. */}
+        For the Emerging Tech track, we invite teams to explore cutting-edge
+        technologies, such as artificial intelligence, machine learning, virtual
+        reality, and more. Their project represents the transformative power of
+        technology, creating a lasting impact and shaping unforgettable
+        memories.
       </div>
       <div
         className="Text"
@@ -565,14 +567,15 @@ const TracksChallenges = () => {
           position: "absolute",
           color: "black",
           fontSize: 20,
-          fontFamily: "Be Vietnam",
+          fontFamily: "Helvetica",
           fontWeight: "500",
           wordWrap: "break-word",
         }}>
-        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
-        sapien. Donec dignissim sed dolor id aliquet. Curabitur ornare
-        vestibulum dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. */}
+        For the Sustainability track, teams will takes a forward-thinking
+        approach towards sustainability and environmental conservation. Their
+        project embodies the memories we cherish, reminding us to be responsible
+        stewards of the Earth and leave a positive legacy for future
+        generations.
       </div>
       <div
         className="Text"
@@ -583,14 +586,16 @@ const TracksChallenges = () => {
           position: "absolute",
           color: "black",
           fontSize: 20,
-          fontFamily: "Be Vietnam",
+          fontFamily: "Helvetica",
           fontWeight: "500",
           wordWrap: "break-word",
         }}>
-        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
-        sapien. Donec dignissim sed dolor id aliquet. Curabitur ornare
-        vestibulum dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. */}
+        The Education track aims to enhance education by paving the way for
+        inclusive and transformative education. Some avenues could be through
+        visualization, self-improvement tools, accessibility innovations, and
+        more. Their project encapsulates the memories of growth, empowerment,
+        and the joy of learning, encouraging others to unlock their full
+        potential.
       </div>
       <div
         className="Text"
@@ -601,14 +606,15 @@ const TracksChallenges = () => {
           position: "absolute",
           color: "black",
           fontSize: 20,
-          fontFamily: "Be Vietnam",
+          fontFamily: "Helvetica",
           fontWeight: "500",
           wordWrap: "break-word",
         }}>
-        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a ultricies
-        sapien. Donec dignissim sed dolor id aliquet. Curabitur ornare
-        vestibulum dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. */}
+        The Digital Media track embraces the power of digital arts and
+        entertainment to create immersive experiences that evoke emotions and
+        transport audiences to new realms. Their project becomes a cherished
+        memory, weaving together creativity, storytelling, and the joy of shared
+        moments.
       </div>
     </div>
   );
