@@ -152,7 +152,7 @@ const About = () => {
           fontWeight: "500",
           wordWrap: "break-word",
         }}>
-        July 20, 2023
+        July 24, 2023
       </div>
       <Image
         className="Laptop"
