@@ -1,13 +1,26 @@
 /* eslint-disable @next/next/no-img-element */
+
 import NavbarComponent from "./NavbarComponent";
 
 import styles from "./Navbar.module.scss";
-import { HStack, Box, Menu, MenuButton, MenuItem, MenuList, Center, Link } from "@chakra-ui/react";
+
+import {
+  HStack,
+  Box,
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuList,
+  Center,
+  Link,
+} from "@chakra-ui/react";
+
 import { useEffect } from "react";
 
 interface Anchor {
   name: string;
   id: string;
+  color: string;
 }
 
 interface NavProps {
@@ -15,10 +28,10 @@ interface NavProps {
 }
 
 const Navbar = (np: NavProps) => {
-
   return (
     <div>
-      <Box className={styles.navbarContainer}>.</Box>
+      {/* <Box className={styles.navbarContainer}>.</Box> */}
+
       <a
         href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white"
         target="_blank"
@@ -30,12 +43,16 @@ const Navbar = (np: NavProps) => {
           alt="Major League Hacking 2024 Hackathon Season"
         />
       </a>
+
       <Center>
-        <Box className={styles.navbg}>`</Box>
-        <Box className={styles.progressBar} id="myBar"></Box>
-        <HStack draggable="false" className={styles.container} spacing={"8vw"}>
+        <HStack draggable="false" className={styles.container} spacing={"4vw"}>
           {np.anchors.map((anchor) => (
-            <NavbarComponent key={null} name={anchor.name} anchorLink={anchor.id} />
+            <NavbarComponent
+              key={null}
+              name={anchor.name}
+              anchorLink={anchor.id}
+              bgColor={anchor.color}
+            />
           ))}
         </HStack>
       </Center>
@@ -52,46 +69,55 @@ const Navbar = (np: NavProps) => {
             >
               <path
                 d="M31.5 18.1915H4.5"
-                stroke="white"
+                stroke="black"
                 strokeWidth="3.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
+
               <path
                 d="M31.5 9H4.5"
-                stroke="white"
+                stroke="black"
                 strokeWidth="3.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
+
               <path
                 d="M31.5 27.3829H4.5"
-                stroke="white"
+                stroke="black"
                 strokeWidth="3.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
             </svg>
           </MenuButton>
+
           <MenuList>
             <Link href="#home">
               <MenuItem>Home</MenuItem>
             </Link>
+
             <Link href="#about">
               <MenuItem>About</MenuItem>
             </Link>
+
             <Link href="#tracks_and_challenges">
               <MenuItem>Tracks</MenuItem>
             </Link>
+
             <Link href="#faq">
               <MenuItem>FAQ</MenuItem>
             </Link>
+
             <Link href="#schedule">
               <MenuItem>Schedule</MenuItem>
             </Link>
+
             <Link href="#sponsors">
               <MenuItem>Sponsors</MenuItem>
             </Link>
+
             <Link href="#sponsors">
               <MenuItem>Apply</MenuItem>
             </Link>
@@ -101,6 +127,5 @@ const Navbar = (np: NavProps) => {
     </div>
   );
 };
-
 
 export default Navbar;

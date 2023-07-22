@@ -2,31 +2,38 @@
   "components": [
     {
       "name": "HOME",
-      "id": "#home"
+      "id": "#home",
+      "color": "#E2CFC466"
     },
     {
       "name": "ABOUT",
-      "id": "#about"
+      "id": "#about",
+      "color": "#F7D9C466"
     },
     {
       "name": "TRACKS",
-      "id": "#tracks_and_challenges"
-    },
-    {
-      "name": "FAQ",
-      "id": "#faq"
+      "id": "#tracks_and_challenges",
+      "color": "#FBE3A4"
     },
     {
       "name": "SCHEDULE",
-      "id": "#schedule"
+      "id": "#schedule",
+      "color": "#C6DEF166"
+    },
+    {
+      "name": "FAQ",
+      "id": "#faq",
+      "color": "#C9E4DE66"
     },
     {
       "name": "SPONSORS",
-      "id": "#sponsors"
+      "id": "#sponsors",
+      "color": "#DBCDF066"
     },
     {
       "name": "APPLY",
-      "id": "#about"
+      "id": "#sponsors",
+      "color": "#F2C6DE66"
     }
   ]
 }
