@@ -22,7 +22,7 @@ const Home: NextPage = (props) => {
         <link
           rel="icon"
           type="image/png"
-          href="/icon/logo/filled_in_hackgt9_logo.png"
+          href="/icon/logo/hackgtx-512x512.png"
         />
       </Head>
       <Navbar anchors={links.components} />
