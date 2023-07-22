@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./TracksChallenges.module.scss";
+import { Alert, AlertIcon } from "@chakra-ui/react";
 
 const TracksChallenges = () => {
   return (
@@ -10,7 +11,8 @@ const TracksChallenges = () => {
         height: 1024,
         position: "relative",
         background: "white",
-      }}>
+      }}
+    >
       <Image
         src="/img/global/grid-background-image.png"
         layout="fill"
@@ -30,10 +32,12 @@ const TracksChallenges = () => {
           alignItems: "flex-start",
           gap: 34,
           display: "inline-flex",
-        }}>
+        }}
+      >
         <div
           className="Group"
-          style={{ width: 381, height: 83, position: "relative" }}>
+          style={{ width: 381, height: 83, position: "relative" }}
+        >
           <div
             className="Group"
             style={{
@@ -42,7 +46,8 @@ const TracksChallenges = () => {
               left: 0,
               top: 0,
               position: "absolute",
-            }}>
+            }}
+          >
             <div
               className="Vector"
               style={{
@@ -52,7 +57,8 @@ const TracksChallenges = () => {
                 top: 11.77,
                 position: "absolute",
                 background: "white",
-              }}></div>
+              }}
+            ></div>
             <div
               className="Vector"
               style={{
@@ -62,7 +68,8 @@ const TracksChallenges = () => {
                 top: 0,
                 position: "absolute",
                 background: "#F7AAAC",
-              }}></div>
+              }}
+            ></div>
           </div>
           <div
             className="Group"
@@ -72,7 +79,8 @@ const TracksChallenges = () => {
               left: 0,
               top: 0,
               position: "absolute",
-            }}>
+            }}
+          >
             <div
               className="Vector"
               style={{
@@ -82,7 +90,8 @@ const TracksChallenges = () => {
                 top: 11.77,
                 position: "absolute",
                 border: "0.50px #231F20 solid",
-              }}></div>
+              }}
+            ></div>
             <div
               className="Vector"
               style={{
@@ -93,7 +102,8 @@ const TracksChallenges = () => {
                 position: "absolute",
                 background: "rgba(145.35, 255, 117.94, 0.53)",
                 border: "0.50px #231F20 solid",
-              }}></div>
+              }}
+            ></div>
             <div
               className="DigitalArts"
               style={{
@@ -105,8 +115,9 @@ const TracksChallenges = () => {
                 fontFamily: "Scrapbook",
                 fontWeight: "500",
                 wordWrap: "break-word",
-              }}>
-              digital arts
+              }}
+            >
+              DIGITAL ART 4510
             </div>
           </div>
         </div>
@@ -124,7 +135,8 @@ const TracksChallenges = () => {
             fontFamily: "Scrapbook",
             fontWeight: "500",
             wordWrap: "break-word",
-          }}>
+          }}
+        >
           5
         </div>
       </div>
@@ -139,10 +151,12 @@ const TracksChallenges = () => {
           alignItems: "flex-start",
           gap: 34,
           display: "inline-flex",
-        }}>
+        }}
+      >
         <div
           className="Group"
-          style={{ width: 381, height: 83, position: "relative" }}>
+          style={{ width: 381, height: 83, position: "relative" }}
+        >
           <div
             className="Vector"
             style={{
@@ -152,7 +166,8 @@ const TracksChallenges = () => {
               top: 0,
               position: "absolute",
               background: "#F8F4B3",
-            }}></div>
+            }}
+          ></div>
           <div
             className="Group"
             style={{
@@ -161,7 +176,8 @@ const TracksChallenges = () => {
               left: 0,
               top: 0,
               position: "absolute",
-            }}>
+            }}
+          >
             <div
               className="Vector"
               style={{
@@ -171,7 +187,8 @@ const TracksChallenges = () => {
                 top: 11.79,
                 position: "absolute",
                 border: "0.50px #231F20 solid",
-              }}></div>
+              }}
+            ></div>
             <div
               className="Vector"
               style={{
@@ -181,7 +198,8 @@ const TracksChallenges = () => {
                 top: 0,
                 position: "absolute",
                 border: "0.50px #231F20 solid",
-              }}></div>
+              }}
+            ></div>
           </div>
         </div>
         <div
@@ -196,7 +214,8 @@ const TracksChallenges = () => {
             left: 18,
             top: 18,
             position: "absolute",
-          }}>
+          }}
+        >
           <div
             className="Education"
             style={{
@@ -208,8 +227,9 @@ const TracksChallenges = () => {
               fontFamily: "Scrapbook",
               fontWeight: "500",
               wordWrap: "break-word",
-            }}>
-            education
+            }}
+          >
+            EDU 3510
           </div>
           <div
             style={{
@@ -221,7 +241,8 @@ const TracksChallenges = () => {
               fontFamily: "Scrapbook",
               fontWeight: "500",
               wordWrap: "break-word",
-            }}>
+            }}
+          >
             4
           </div>
         </div>
@@ -237,10 +258,12 @@ const TracksChallenges = () => {
           alignItems: "flex-start",
           gap: 34,
           display: "inline-flex",
-        }}>
+        }}
+      >
         <div
           className="Group"
-          style={{ width: 381, height: 83, position: "relative" }}>
+          style={{ width: 381, height: 83, position: "relative" }}
+        >
           <div
             className="Vector"
             style={{
@@ -250,7 +273,8 @@ const TracksChallenges = () => {
               top: 0,
               position: "absolute",
               background: "#FFEAB4",
-            }}></div>
+            }}
+          ></div>
           <div
             className="Group"
             style={{
@@ -259,7 +283,8 @@ const TracksChallenges = () => {
               left: 0,
               top: 0,
               position: "absolute",
-            }}>
+            }}
+          >
             <div
               className="Vector"
               style={{
@@ -269,7 +294,8 @@ const TracksChallenges = () => {
                 top: 11.79,
                 position: "absolute",
                 border: "0.50px #231F20 solid",
-              }}></div>
+              }}
+            ></div>
             <div
               className="Vector"
               style={{
@@ -279,7 +305,8 @@ const TracksChallenges = () => {
                 top: 0,
                 position: "absolute",
                 border: "0.50px #231F20 solid",
-              }}></div>
+              }}
+            ></div>
           </div>
         </div>
         <div
@@ -294,7 +321,8 @@ const TracksChallenges = () => {
             left: 11,
             top: 18,
             position: "absolute",
-          }}>
+          }}
+        >
           <div
             className="Sustainability"
             style={{
@@ -306,8 +334,9 @@ const TracksChallenges = () => {
               fontFamily: "Scrapbook",
               fontWeight: "500",
               wordWrap: "break-word",
-            }}>
-            sustainability
+            }}
+          >
+            SUSTAIN 2110
           </div>
           <div
             style={{
@@ -319,7 +348,8 @@ const TracksChallenges = () => {
               fontFamily: "Scrapbook",
               fontWeight: "500",
               wordWrap: "break-word",
-            }}>
+            }}
+          >
             3
           </div>
         </div>
@@ -335,10 +365,12 @@ const TracksChallenges = () => {
           alignItems: "flex-start",
           gap: 34,
           display: "inline-flex",
-        }}>
+        }}
+      >
         <div
           className="Group"
-          style={{ width: 381, height: 83, position: "relative" }}>
+          style={{ width: 381, height: 83, position: "relative" }}
+        >
           <div
             className="Vector"
             style={{
@@ -348,7 +380,8 @@ const TracksChallenges = () => {
               top: 0,
               position: "absolute",
               background: "#FABEAA",
-            }}></div>
+            }}
+          ></div>
           <div
             className="Group"
             style={{
@@ -357,7 +390,8 @@ const TracksChallenges = () => {
               left: 0,
               top: 0,
               position: "absolute",
-            }}>
+            }}
+          >
             <div
               className="Vector"
               style={{
@@ -367,7 +401,8 @@ const TracksChallenges = () => {
                 top: 11.77,
                 position: "absolute",
                 border: "0.50px #231F20 solid",
-              }}></div>
+              }}
+            ></div>
             <div
               className="Vector"
               style={{
@@ -377,7 +412,8 @@ const TracksChallenges = () => {
                 top: 0,
                 position: "absolute",
                 border: "0.50px #231F20 solid",
-              }}></div>
+              }}
+            ></div>
           </div>
         </div>
         <div
@@ -392,7 +428,8 @@ const TracksChallenges = () => {
             left: 15,
             top: 18,
             position: "absolute",
-          }}>
+          }}
+        >
           <div
             className="EmergingTech"
             style={{
@@ -404,8 +441,9 @@ const TracksChallenges = () => {
               fontFamily: "Scrapbook",
               fontWeight: "500",
               wordWrap: "break-word",
-            }}>
-            emerging tech
+            }}
+          >
+            INNOVATE 3251
           </div>
           <div
             style={{
@@ -417,7 +455,8 @@ const TracksChallenges = () => {
               fontFamily: "Scrapbook",
               fontWeight: "500",
               wordWrap: "break-word",
-            }}>
+            }}
+          >
             2
           </div>
         </div>
@@ -433,10 +472,12 @@ const TracksChallenges = () => {
           alignItems: "flex-start",
           gap: 34,
           display: "inline-flex",
-        }}>
+        }}
+      >
         <div
           className="Group8"
-          style={{ width: 381, height: 83, position: "relative" }}>
+          style={{ width: 381, height: 83, position: "relative" }}
+        >
           <div
             className="Vector"
             style={{
@@ -446,7 +487,8 @@ const TracksChallenges = () => {
               top: 0,
               position: "absolute",
               background: "#F7AAAC",
-            }}></div>
+            }}
+          ></div>
           <div
             className="Group"
             style={{
@@ -455,7 +497,8 @@ const TracksChallenges = () => {
               left: 0,
               top: 0,
               position: "absolute",
-            }}>
+            }}
+          >
             <div
               className="Vector"
               style={{
@@ -465,7 +508,8 @@ const TracksChallenges = () => {
                 top: 11.79,
                 position: "absolute",
                 border: "0.50px #231F20 solid",
-              }}></div>
+              }}
+            ></div>
             <div
               className="Vector"
               style={{
@@ -475,7 +519,8 @@ const TracksChallenges = () => {
                 top: 0,
                 position: "absolute",
                 border: "0.50px #231F20 solid",
-              }}></div>
+              }}
+            ></div>
           </div>
         </div>
         <div
@@ -490,7 +535,8 @@ const TracksChallenges = () => {
             left: 16,
             top: 18,
             position: "absolute",
-          }}>
+          }}
+        >
           <div
             className="Healthcare"
             style={{
@@ -502,8 +548,9 @@ const TracksChallenges = () => {
               fontFamily: "Scrapbook",
               fontWeight: "500",
               wordWrap: "break-word",
-            }}>
-            healthcare
+            }}
+          >
+            HEALTH 1001
           </div>
           <div
             style={{
@@ -515,7 +562,8 @@ const TracksChallenges = () => {
               fontFamily: "Scrapbook",
               fontWeight: "500",
               wordWrap: "break-word",
-            }}>
+            }}
+          >
             1
           </div>
         </div>
@@ -528,16 +576,17 @@ const TracksChallenges = () => {
           top: 257,
           position: "absolute",
           color: "black",
-          fontSize: 20,
+          fontSize: 18,
           fontFamily: "Helvetica",
           fontWeight: "500",
           wordWrap: "break-word",
-        }}>
-        For the HealthTech track, teams can leverage technology to create
-        innovative solutions that improve healthcare accessibility, promote
-        mental well-being, and foster personal growth. Just like cherished
-        memories, their project captures the essence of nurturing a healthier
-        future.
+        }}
+      >
+        For the <b>HEALTH 1001</b> track, teams can leverage technology to
+        create innovative solutions that improve healthcare accessibility,
+        promote mental well-being, and foster personal growth. Just like
+        cherished memories, their project captures the essence of nurturing a
+        healthier future.
       </div>
       <div
         className="Text"
@@ -547,16 +596,17 @@ const TracksChallenges = () => {
           top: 666,
           position: "absolute",
           color: "black",
-          fontSize: 20,
+          fontSize: 18,
           fontFamily: "Helvetica",
           fontWeight: "500",
           wordWrap: "break-word",
-        }}>
-        For the Emerging Tech track, we invite teams to explore cutting-edge
-        technologies, such as artificial intelligence, machine learning, virtual
-        reality, and more. Their project represents the transformative power of
-        technology, creating a lasting impact and shaping unforgettable
-        memories.
+        }}
+      >
+        For the <b>INNOVATE 3251</b> track, we invite teams to explore
+        cutting-edge technologies, such as artificial intelligence, machine
+        learning, virtual reality, and more. Their project represents the
+        transformative power of technology, creating a lasting impact and
+        shaping unforgettable memories.
       </div>
       <div
         className="Text"
@@ -566,12 +616,13 @@ const TracksChallenges = () => {
           top: 515,
           position: "absolute",
           color: "black",
-          fontSize: 20,
+          fontSize: 18,
           fontFamily: "Helvetica",
           fontWeight: "500",
           wordWrap: "break-word",
-        }}>
-        For the Sustainability track, teams will takes a forward-thinking
+        }}
+      >
+        For the <b>SUSTAIN 2110</b> track, teams will takes a forward-thinking
         approach towards sustainability and environmental conservation. Their
         project embodies the memories we cherish, reminding us to be responsible
         stewards of the Earth and leave a positive legacy for future
@@ -585,17 +636,18 @@ const TracksChallenges = () => {
           top: 257,
           position: "absolute",
           color: "black",
-          fontSize: 20,
+          fontSize: 18,
           fontFamily: "Helvetica",
           fontWeight: "500",
           wordWrap: "break-word",
-        }}>
-        The Education track aims to enhance education by paving the way for
-        inclusive and transformative education. Some avenues could be through
-        visualization, self-improvement tools, accessibility innovations, and
-        more. Their project encapsulates the memories of growth, empowerment,
-        and the joy of learning, encouraging others to unlock their full
-        potential.
+        }}
+      >
+        The <b>EDU 3510</b> track aims to enhance education by paving the way
+        for inclusive and transformative education. Some avenues could be
+        through visualization, self-improvement tools, accessibility
+        innovations, and more. Their project encapsulates the memories of
+        growth, empowerment, and the joy of learning, encouraging others to
+        unlock their full potential.
       </div>
       <div
         className="Text"
@@ -605,16 +657,40 @@ const TracksChallenges = () => {
           top: 666,
           position: "absolute",
           color: "black",
-          fontSize: 20,
+          fontSize: 18,
           fontFamily: "Helvetica",
           fontWeight: "500",
           wordWrap: "break-word",
-        }}>
-        The Digital Media track embraces the power of digital arts and
+        }}
+      >
+        The <b>DIGITAL ART 4510</b> track embraces the power of digital arts and
         entertainment to create immersive experiences that evoke emotions and
         transport audiences to new realms. Their project becomes a cherished
         memory, weaving together creativity, storytelling, and the joy of shared
         moments.
+      </div>
+      <div
+        className="Text"
+        style={{
+          width: 951,
+          left: 286,
+          top: 950,
+          position: "absolute",
+          color: "black",
+          fontSize: 12,
+          fontFamily: "Helvetica",
+          wordWrap: "break-word",
+        }}
+      >
+        <Alert status="warning">
+          <AlertIcon />
+          Participants will only be able to submit their project to ONE of the
+          five tracks. In addition, each track will have the option to be
+          submitted as either emerging or advanced. Beginner hackers can submit to
+          the emerging level for a more approachable, beginner friendly judging
+          experience, while more seasoned hackers can throw their hat in the
+          ring in a more challenging and higher stakes pool of competition.
+        </Alert>
       </div>
     </div>
   );
