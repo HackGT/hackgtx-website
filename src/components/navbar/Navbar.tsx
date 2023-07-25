@@ -43,7 +43,6 @@ const Navbar = (np: NavProps) => {
           alt="Major League Hacking 2024 Hackathon Season"
         />
       </a>
-
       <Center>
         <HStack draggable="false" className={styles.container} spacing={"4vw"}>
           {np.anchors.map((anchor) => (

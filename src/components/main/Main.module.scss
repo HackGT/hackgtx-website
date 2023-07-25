@@ -1,5 +1,104 @@
 @import "../styles/variables.scss";
 
+.grid-background-image {
+  z-index: 2 !important;
+}
+
+.crumpled_paper {
+  width: 1700px;
+  height: 1000px;
+  margin-left: 10px;
+}
+
+
+.rectangle {
+  z-index: 5;
+  width: 1700px;
+  height: 421px;
+  margin-left: 10px;
+  margin-top: 140px;
+}
+
+.logo {
+  z-index: 5;
+  margin-left: 225px;
+  margin-top: 160px;
+}
+
+.brown_blurb {
+  z-index: 5;
+  margin-top: 325px;
+  margin-left: 630px;
+}
+
+.comb1 {
+  z-index: 5;
+  margin-top: 370px;
+  margin-left: 650px;
+}
+
+.comb2 {
+  z-index: 5;
+  transform: rotate(165deg);
+  margin-top: 510px;
+  margin-left: 1405px;
+}
+
+.dates {
+  z-index: 5;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 510px;
+  margin-left: 1035px;
+}
+
+.dates_blurb {
+  z-index: 5;
+  margin-top: 475px;
+  margin-left: 1000px;
+}
+
+.green_star {
+  z-index: 5;
+  width: 88px;
+  height: 90px;
+  margin-left: 225px;
+  margin-top: 450px;
+}
+
+.pink_star {
+  z-index: 5;
+  width: 116px;
+  height: 123px;
+  margin-left: 425px;
+  margin-top: 125px;
+}
+
+.hackgt_text {
+  z-index: 5;
+  margin-left: 475px;
+  margin-top: 120px;
+}
+
+.location_blurb {
+  z-index: 5;
+  margin-left: 175px;
+  margin-top: 585px;
+}
+
+.random_text_blurb {
+  z-index: 5;
+  margin-left: 950px;
+  margin-top: 550px;
+}
+
+.register_now {
+  z-index: 5;
+  margin-left: 625px;
+  margin-top: 700px;
+}
+
+
 
 @media only screen and (min-width: 1441px) {
   .title_box {
@@ -7,7 +106,6 @@
     zoom: 1.33 !important;
   }
 }
-
 
 // /* Local variables */
 // $mask-scale: 100%;
