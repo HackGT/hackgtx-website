@@ -17,14 +17,6 @@ const Main = (mp: MainProps) => {
         position: "relative",
       }}
     >
-      <NextImage
-        className="grid-background-image"
-        src="/img/global/grid-background-image.png"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-        objectPosition="center"
-      />
       <Image
         className={styles.crumpled_paper}
         style={{
