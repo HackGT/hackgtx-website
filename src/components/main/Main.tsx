@@ -21,8 +21,6 @@ const Main = (mp: MainProps) => {
     <div
       className={styles.title_box}
       style={{
-        width: 1440,
-        height: 1024,
         position: "relative",
       }}
     >
@@ -51,28 +49,12 @@ const Main = (mp: MainProps) => {
         alt="rectangle"
       />
       <Image
-        className={styles.logo}
+        className={styles.logo_and_stars}
         style={{
           position: "absolute",
         }}
-        src="/svg/home/hexlabslogo.svg"
-        alt="logo"
-      />
-      <Image
-        className={styles.green_star}
-        style={{
-          position: "absolute",
-        }}
-        src="/svg/home/green_star.svg"
-        alt="logo"
-      />
-      <Image
-        className={styles.pink_star}
-        style={{
-          position: "absolute",
-        }}
-        src="/svg/home/pink_star.svg"
-        alt="logo"
+        src="/svg/home/logo_and_stars.svg"
+        alt="logo_and_stars"
       />
       <Image
           className={styles.hackgt_text}
@@ -97,22 +79,6 @@ const Main = (mp: MainProps) => {
         }}
         src="/svg/home/dates_blurb.svg"
         alt="dates_blurb"
-      />
-      <Image
-        className={styles.comb1}
-        style={{
-          position: "absolute",
-        }}
-        src="/svg/home/comb.svg"
-        alt="comb1"
-      />
-      <Image
-        className={styles.comb2}
-        style={{
-          position: "absolute",
-        }}
-        src="/svg/home/comb.svg"
-        alt="comb2"
       />
       <Image
         className={styles.location_blurb}

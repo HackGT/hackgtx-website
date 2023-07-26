@@ -1,101 +1,79 @@
 @import "../styles/variables.scss";
 
+.title_box {
+  width: 100% !important;
+  min-width: 100vw;
+  height: 100vh;
+}
+
 .grid-background-image {
   z-index: 2 !important;
+  width: 100vw;
+  height: 100vh;
 }
 
 .crumpled_paper {
-  width: 1700px;
-  height: 1000px;
-  margin-left: 10px;
+  z-index: 4;
+  width: 100vw;
+  height: 100vh;
 }
 
 
 .rectangle {
   z-index: 5;
-  width: 1700px;
-  height: 421px;
-  margin-left: 10px;
-  margin-top: 140px;
+  width: 85vw;
+  height: 40vh;
+  margin-left: 7vw;
+  margin-top: 14vh;
 }
 
-.logo {
+.logo_and_stars {
   z-index: 5;
-  margin-left: 225px;
-  margin-top: 160px;
-}
-
-.brown_blurb {
-  z-index: 5;
-  margin-top: 325px;
-  margin-left: 630px;
-}
-
-.comb1 {
-  z-index: 5;
-  margin-top: 370px;
-  margin-left: 650px;
-}
-
-.comb2 {
-  z-index: 5;
-  transform: rotate(165deg);
-  margin-top: 510px;
-  margin-left: 1405px;
-}
-
-.dates {
-  z-index: 5;
-  font-size: 30px;
-  font-weight: 500;
-  margin-top: 510px;
-  margin-left: 1035px;
-}
-
-.dates_blurb {
-  z-index: 5;
-  margin-top: 475px;
-  margin-left: 1000px;
-}
-
-.green_star {
-  z-index: 5;
-  width: 88px;
-  height: 90px;
-  margin-left: 225px;
-  margin-top: 450px;
-}
-
-.pink_star {
-  z-index: 5;
-  width: 116px;
-  height: 123px;
-  margin-left: 425px;
-  margin-top: 125px;
+  margin-left: 16vw;
+  margin-top: 12vh;
+  height: 40vh;
 }
 
 .hackgt_text {
   z-index: 5;
-  margin-left: 475px;
-  margin-top: 120px;
+  margin-left: 31vw;
+  margin-top: 14vh;
+  width: 51vw;
+}
+
+.brown_blurb {
+  z-index: 5;
+  margin-left: 37vw;
+  margin-top: 33vh;
+  height: 22vh;
+}
+
+.dates_blurb {
+  z-index: 5;
+  margin-left: 60vw;
+  margin-top: 47vh;
+  width: 25vw;
 }
 
 .location_blurb {
   z-index: 5;
-  margin-left: 175px;
-  margin-top: 585px;
+  margin-left: 13vw;
+  margin-top: 55vh;
+  height: 44vh;
 }
 
 .random_text_blurb {
   z-index: 5;
-  margin-left: 950px;
-  margin-top: 550px;
+  margin-left: 57vw;
+  margin-top: 55vh;
+  height: 42vh;
 }
 
 .register_now {
   z-index: 5;
-  margin-left: 625px;
-  margin-top: 700px;
+  margin-left: 37vw;
+  margin-top: 70vh;
+  width: 27vw;
 }
 
 
@@ -103,253 +81,5 @@
 @media only screen and (min-width: 1441px) {
   .title_box {
     width: 100% !important;
-    zoom: 1.33 !important;
   }
 }
-
-// /* Local variables */
-// $mask-scale: 100%;
-// $mask-base-width: 485px;
-// $mask-base-height: 40px;
-// $loading-bar-transition: background-position 2s ease;
-
-// .title_box {
-//   color: black;
-//   position: relative;
-//   padding-top: 20rem;
-//   overflow: hidden;
-// }
-// .title_stack {
-//   padding-right: 25px;
-// }
-// .title {
-//   z-index: 5;
-//   font-size: 9vw;
-//   font-family: "Scrapbook";
-//   font-style: italic;
-//   color: black;
-// }
-
-// /* swap out image, it's obviously a decoy */
-// .logo {
-//   z-index: 2;
-//   display: none;
-// }
-// #registerNow{
-//   width: 40vw;
-//   z-index: 4;
-// }
-
-// .description {
-//   z-index: 2;
-//   position: relative;
-//   top: -6vh;
-//   font-style: normal;
-//   font-family: "Scrapbook";
-//   font-size: 3vw;
-//   text-align: center;
-//   .motto {
-//     color: black;
-//     /* only works in safari apparently */
-//     -webkit-text-stroke: 2px solid #ffffff;
-//   }
-// }
-// @media(min-width: 1600px){
-//   #register_stack{
-//     padding-top: -6vh;
-//   }
-//   #register_button_text{
-//     padding-top: 0vh;
-//   }
-//   #loading_bar{
-//     padding-top: 7vh;
-//   }
-// }
-// #register_stack{
-//   position:static;
-//   width: 40vw;
-//   top: 5vh;
-//   #register_button_text {
-//     position: absolute;
-//     z-index: 5;
-//     font-family: "Titillium Web";
-//     font-style: normal;
-//     color: white;
-//     font-size: 2.5vw;
-//   }
-//   #loading_bar {
-//   position: absolute;
-//   z-index: 4;
-//   padding-top: 2vh;
-//   width: 30vw;
-//   height: 100px;
-//   }
-// }
-// #register_button {
-//   // padding: 10vh;
-// }
-//   #register_button_outer {
-//     position: absolute;
-//     width: 40vw;
-//     height: auto;
-//     z-index: 2;
-//   }
-//   #register_button_inner {
-//     z-index: 3;
-//     position: absolute;
-//     width: 39vw;
-//     height: auto;
-//   }
-
-// @media (max-width: 1200px) {
-//   .title_box {
-//     padding-top: 14vh;
-//   }
-//   .title {
-//     font-size: 10vw;
-//   }
-//   .description {
-//     font-size: $headerIntermediate;
-//     top: -3vh;
-//   }
-//   #register_button {
-//     padding: 5vw;
-//   }
-//   #register_stack{
-//     top: -5vh;
-//   }
-//     #register_button_text {
-//       padding-top: 2vh;
-//       font-size: 25px;
-//     }
-//   #loading_bar {
-//     padding-top: 2vh ;
-//   }
-// }
-
-// /* mold this one to be more similar to the mobile version */
-// @media (max-width: 830px) {
-//   .logo {
-//     display: inline;
-//   }
-//   .logoBig{
-//     display: none;
-//   }
-//   .title_box {
-//     padding-top: 5vh;
-//   }
-//   .title {
-//     font-size: 11vw;
-//   }
-//   .title_stack{
-//     // margin-top: 10vh;
-//     margin-left: 8vw;
-//     margin-right: 8vw;
-//     left: 20vw;
-//     right: 0vw;
-//     padding-left: 5vw;
-//     padding-right: 5vw;
-//   }
-//   .logoBig{
-//     margin-top: 10vh;
-//     width: 20vw;
-//   }
-//   .description {
-//     font-size: 6vw;
-//     top: -20px;
-//   }
-//     #register_button_text {
-//       font-size: 25px;
-//     }
-//     #register_stack{
-//       padding-top: 1vh;
-//     }
-//   #registerNow{
-//     width: 60vw;
-//   }
-// }
-// @media (max-width: 700px){
-//   #register_button_text{
-//     font-size: 20px;
-//     padding-top: 2.5vh;
-//   }
-// }
-
-// /* add some intermediaries */
-// @media (max-width: 480px) {
-//   .title_box {
-//     padding-top: 20vh;
-//   }
-//   .title {
-//     font-size: 13.5vw;
-//   }
-//   .title_stack{
-//     padding: 12vw;
-//     margin: 0vw;
-//   }
-//   .description {
-//     font-size: 8vw;
-//     top: -1vh;
-//   }
-//   #register_stack{
-//     padding-top: 3vh;
-//   }
-//   #register_button_text{
-//     font-size: 3.5vw;
-//     padding-top: 2vh;
-//   }
-//   #loading_bar{
-//     padding-top: 1vh;
-//   }
-// }
-// @media(max-width: 420px){
-//   #register_stack{
-//     padding-top:4vh;
-//   }
-//   #register_button_text{
-//     padding-top: 1.5vh;
-//   }
-//   #loading_bar{
-//     padding-top: 0.5vh;
-//   }
-// }
-// @media (max-height: 800px) {
-//   .title_box {
-//     padding-top: 8vh;
-//   }
-// }
-
-// @keyframes starryMotion {
-//   0% {
-//     transform: translateX(0) translateY(0);
-//   }
-//   25% {
-//     transform: translateX(10%);
-//   }
-//   50% {
-//     transform: translateY(10%);
-//   }
-//   75% {
-//     transform: translateX(10%) translateY(10%);
-//   }
-//   100% {
-//     transform: translateX(0) translateY(0);
-//   }
-// }
-// @keyframes starryMotion2 {
-//   0% {
-//     transform: translateX(0) translateY(0);
-//   }
-//   25% {
-//     transform: translateY(10%);
-//   }
-//   50% {
-//     transform: translateX(10%);
-//   }
-//   75% {
-//     transform: translateX(10%) translateY(10%);
-//   }
-//   100% {
-//     transform: translateX(0) translateY(0);
-//   }
-// }
