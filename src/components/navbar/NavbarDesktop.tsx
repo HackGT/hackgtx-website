@@ -2,14 +2,14 @@ import { Link, Center, Text } from "@chakra-ui/react";
 
 import styles from "./Navbar.module.scss";
 
-interface NavbarComponentProps {
+interface NavbarDesktopProps {
   name: string;
   key: null;
   anchorLink: string;
   bgColor: string;
 }
 
-const NavbarComponent = (ncp: NavbarComponentProps) => {
+const NavbarDesktop = (ncp: NavbarDesktopProps) => {
   return (
     <div>
       <Link
@@ -26,4 +26,4 @@ const NavbarComponent = (ncp: NavbarComponentProps) => {
   );
 };
 
-export default NavbarComponent;
+export default NavbarDesktop;
