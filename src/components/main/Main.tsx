@@ -1,14 +1,7 @@
 import {
-  Center,
-  VStack,
-  Text,
   Link,
-  HStack,
   Image,
-  Box,
-  Button,
 } from "@chakra-ui/react";
-import ImageWrapper from "../image/ImageWrapper";
 import styles from "./Main.module.scss";
 import NextImage from "next/image";
 
