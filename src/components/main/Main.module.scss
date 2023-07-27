@@ -77,6 +77,15 @@
   width: 27vw;
 }
 
+.register_now:hover {
+  animation: scale 1000ms ease-in-out;
+}
+@keyframes scale {
+  to {
+    transform: scale(1.2);
+  }
+}
+
 @media only screen and (max-width: 1440px) {
   .title_box {
     min-width: 1440px;
