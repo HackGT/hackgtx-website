@@ -53,8 +53,7 @@ const RegisterNow = () => {
       paddingTop={"120px"}
       display="grid"
       justifyContent="center"
-      alignContent="center"
-    >
+      alignContent="center">
       <Image
         className={styles.registrationGrid}
         src={"/img/about/registration_grid.png"}

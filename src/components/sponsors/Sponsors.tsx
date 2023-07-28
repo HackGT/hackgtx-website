@@ -25,7 +25,7 @@ const Sponsors = () => {
         alignContent="center"
         width="60%">
         <Image
-          src="/img/global/sponsors.png"
+          src="/img/global/green_sticky.png"
           alt="schedule"
           gridArea="1 / 1"
           textAlign="center"
@@ -34,8 +34,7 @@ const Sponsors = () => {
           gridArea="1 / 1"
           textAlign="center"
           alignSelf="center"
-          borderRadius="10px"
-          >
+          borderRadius="10px">
           Sponsors <br /> coming soon!
         </Heading>
       </Box>

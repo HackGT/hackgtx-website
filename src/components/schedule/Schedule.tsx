@@ -15,7 +15,7 @@ const Schedule = () => {
         alignContent="center"
         width="60%">
         <Image
-          src="/img/global/schedule.png"
+          src="/img/global/green_sticky.png"
           alt="schedule"
           gridArea="1 / 1"
           textAlign="center"
@@ -24,8 +24,7 @@ const Schedule = () => {
           gridArea="1 / 1"
           textAlign="center"
           alignSelf="center"
-          borderRadius="10px"
-          paddingRight="7%">
+          borderRadius="10px">
           Schedule <br /> coming soon!
         </Heading>
       </Box>
