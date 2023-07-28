@@ -1,172 +1,113 @@
-import { Text, Image, Center, VStack } from "@chakra-ui/react";
+import {
+  Text,
+  Image,
+  Center,
+  Stack,
+  Box,
+  Heading,
+  VStack,
+  HStack,
+} from "@chakra-ui/react";
 import styles from "./About.module.scss";
 import NextImage from "next/image";
 import Head from "next/head";
+
+const StickyNote = () => {
+  return (
+    <Box className={styles.aboutNotepad}>
+      <Center>
+        <Image
+          className={styles.aboutBanner}
+          height="40%"
+          top="-10%"
+          right="-10%"
+          position="absolute"
+          src="/img/about/banner_mask.png"
+        />
+        <Text
+          fontSize={{ sm: "15px", lg: "20px" }}
+          px="3%"
+          py="2%"
+          top="0"
+          zIndex={1}>
+          Innovate, reimagine, and shape the future this year at HackGT X:
+          Journal of Memories from October 13th - 15th! The tenth iteration of
+          our flagship hackathon is bringing a hack to remember to all our
+          HackGT creators.
+          <br />
+          <br />
+          This year&apos;s event will be back to an in-person experience, so get
+          ready for a weekend packed with action! Buff your hacking stats, make
+          incredible team-ups, and build your community among the 1,500+
+          passionate hackers we invite each year.
+        </Text>
+      </Center>
+    </Box>
+  );
+};
+
+const RegisterNow = () => {
+  return (
+    <Box
+      className={styles.registerNow}
+      paddingTop={"120px"}
+      display="grid"
+      justifyContent="center"
+      alignContent="center"
+    >
+      <Image
+        className={styles.registrationGrid}
+        src={"/img/about/registration_grid.png"}
+        zIndex={-2}
+        gridArea="1 / 1"
+        textAlign="center"
+      />
+      <Heading
+        as={"h4"}
+        gridArea="1 / 1"
+        textAlign="center"
+        alignSelf="center"
+        borderRadius="10px">
+        Registration is <br /> now open!
+      </Heading>
+    </Box>
+  );
+};
+
 const About = () => {
   return (
-    <div
+    <Box
       className={styles.about}
-      style={{
-        width: 1440,
-        height: 1024,
-        position: "relative",
-        background: "white",
-      }}>
-      <NextImage
-        src="/img/global/grid-background-image.png"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-        objectPosition="center"
-      />
-      <div
-        className="mask-group"
-        style={{
-          width: 512,
-          height: 512,
-          left: -194,
-          top: 137,
-          position: "absolute",
-        }}>
-        <div
-          className="Ellipse24"
-          style={{
-            width: 512,
-            height: 512,
-            left: 0,
-            top: 0,
-            position: "absolute",
-            background: "#6FC5B5",
-            borderRadius: 9999,
-          }}
+      my={24}
+      px={[2, "5%"]}
+      display="flex"
+      justifyContent={"center"}
+      alignItems="center">
+      <VStack className={styles.aboutStack} spacing={8}>
+        <HStack>
+          <Heading fontSize={"70px"}>About</Heading>
+          <Image
+            className={styles.aboutEllipse}
+            src={"/img/about/about-ellipse.png"}
+            width={"30%"}
+            position="absolute"
+            left={"-8%"}
+            minWidth={"20%"}
+            zIndex={-1}
+          />
+        </HStack>
+        <StickyNote />
+        <Image
+          className={styles.laptop}
+          src="/img/about/laptop.png"
+          width="25%"
+          position="absolute"
+          bottom={"0%"}
+          left="0%"
         />
-        <div
-          className="Ellipse23"
-          style={{
-            width: 512,
-            height: 512,
-            left: 0,
-            top: 0,
-            position: "absolute",
-            background: "#6FC5B5",
-            borderRadius: 9999,
-          }}
-        />
-      </div>
-      <div
-        className="About"
-        style={{
-          width: 234,
-          height: 171,
-          left: 105,
-          top: 203,
-          position: "absolute",
-          color: "black",
-          fontSize: 64,
-          fontFamily: "Scrapbook",
-          fontWeight: "500",
-          wordWrap: "break-word",
-        }}>
-        about
-      </div>
-      <Image
-        className={styles.notepad}
-        style={{
-          width: 979,
-          height: 585,
-          left: 339,
-          top: 188,
-          position: "absolute",
-        }}
-        src="/img/about/notepad.png"
-        alt="notepad"
-      />
-      <Image
-        className="banner"
-        style={{
-          width: 437,
-          height: 302,
-          left: 1037,
-          top: 87,
-          position: "absolute",
-        }}
-        src="/img/about/banner_mask.svg"
-        alt="banner"
-      />
-      <div
-        className="Description"
-        style={{
-          width: 675,
-          left: 523,
-          top: 225,
-          position: "absolute",
-          color: "white",
-          fontSize: 30,
-          fontFamily: "Comic Sans MS",
-          fontWeight: "500",
-          wordWrap: "break-word",
-        }}>
-        Innovate, reimagine, and shape the future this year at HackGT X: Journal
-        of Memories from October 13th - 15th! The tenth iteration of our
-        flagship hackathon is bringing a hack to remember to all our HackGT
-        creators. This year&apos;s event will be back to an in-person experience, so
-        get ready for a weekend packed with action! Buff your hacking stats,
-        make incredible team-ups, and build your community among the 1,500+
-        passionate hackers we invite each year.
-      </div>
-      <Image
-        className="registrationBox"
-        style={{
-          width: 984,
-          height: 243,
-          left: 86,
-          top: 737,
-          position: "absolute",
-        }}
-        src="/img/about/reg-box.png"
-        alt="registration grid box"
-      />
-      <div
-        className="OpenRegistration"
-        style={{
-          left: 202,
-          top: 772,
-          position: "absolute",
-          color: "#608774",
-          fontSize: 50,
-          fontFamily: "Scrapbook",
-          fontWeight: "500",
-          wordWrap: "break-word",
-        }}>
-        Registration will open on{" "}
-      </div>
-      <div
-        className="StartDate"
-        style={{
-          left: 299,
-          top: 859,
-          position: "absolute",
-          color: "#466455",
-          fontSize: 50,
-          fontFamily: "Scrapbook",
-          fontWeight: "500",
-          wordWrap: "break-word",
-        }}>
-        July 24, 2023
-      </div>
-      <Image
-        className="Laptop"
-        style={{
-          width: 291,
-          height: 238,
-          left: 973,
-          top: 737,
-          position: "absolute",
-        }}
-        src="/img/about/laptop.png"
-        alt="laptop"
-      />
-    </div>
+        <RegisterNow />
+      </VStack>
+    </Box>
   );
 };
 

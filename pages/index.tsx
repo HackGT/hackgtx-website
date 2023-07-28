@@ -30,17 +30,13 @@ const Home: NextPage = (props) => {
       <section id="home">
         <Main toJump="#registration" />
       </section>
+      <br />
       <section id="about">
         <About />
       </section>
+
       <section id="tracks_and_challenges">
         <TracksChallenges />
-      </section>
-      <section id="general_tracks">
-        {/* <GeneralTracks /> */}
-      </section>
-      <section id="emerging_tracks">
-        {/* <EmergingTracks /> */}
       </section>
       <section id="faq">
         <Faq />

@@ -5,6 +5,12 @@ import "../styles/globals.scss";
 import "../styles/styles.scss"; // temp, components should have their own scss
 
 const theme = extendTheme({
+  // change heading fonts:
+
+  fonts: {
+    heading: "Scrapbook",
+    body: "'Be Vietnam Pro'",
+  },
   colors: {
     darkgray: {
       50: "#5F5E62",
