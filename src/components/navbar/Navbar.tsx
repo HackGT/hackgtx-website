@@ -32,8 +32,6 @@ interface NavProps {
 const Navbar = (np: NavProps) => {
   return (
     <div>
-      {/* <Box className={styles.navbarContainer}>.</Box> */}
-
       <a
         href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white"
         target="_blank"

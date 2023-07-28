@@ -14,16 +14,8 @@ import Head from "next/head";
 
 const StickyNote = () => {
   return (
-    <Box className={styles.aboutNotepad}>
+    <Box className={styles.aboutNotepad} width="90%">
       <Center>
-        <Image
-          className={styles.aboutBanner}
-          height="40%"
-          top="-10%"
-          right="-10%"
-          position="absolute"
-          src="/img/about/banner_mask.png"
-        />
         <Text
           fontSize={{ sm: "15px", lg: "20px" }}
           px="3%"
@@ -50,7 +42,6 @@ const RegisterNow = () => {
   return (
     <Box
       className={styles.registerNow}
-      paddingTop={"120px"}
       display="grid"
       justifyContent="center"
       alignContent="center">
@@ -61,7 +52,8 @@ const RegisterNow = () => {
         textAlign="center"
       />
       <Heading
-        as={"h4"}
+        className={styles.registerNowText}
+        fontSize={{ sm: "20px", lg: "35px" }}
         gridArea="1 / 1"
         textAlign="center"
         alignSelf="center"
@@ -76,24 +68,23 @@ const About = () => {
   return (
     <Box
       className={styles.about}
-      my={24}
       display="flex"
       justifyContent={"center"}
       alignItems="center">
       <VStack className={styles.aboutStack} spacing={8}>
-        <HStack>
-          <Heading fontSize={"60px"}>About</Heading>
+        <HStack py="8%">
+          <Heading fontSize={{ base: "35px", lg: "60px" }}>About</Heading>
           <Image
             className={styles.aboutEllipse}
             src={"/img/about/about-ellipse.png"}
             width={"30%"}
             position="absolute"
             left={"-8%"}
-            minWidth={"20%"}
           />
         </HStack>
         <StickyNote />
         <RegisterNow />
+        <br />
       </VStack>
     </Box>
   );

@@ -11,8 +11,6 @@ import Navbar from "../src/components/navbar/Navbar";
 import Schedule from "../src/components/schedule/Schedule";
 import Footer from "../src/components/footer/Footer";
 
-// import Image from "@chakra-ui/react";
-
 const Home: NextPage = (props) => {
   return (
     <div className="main">

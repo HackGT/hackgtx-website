@@ -35,7 +35,7 @@ const TrackCard = (props: trackCardProps) => {
 const TracksChallenges = () => {
   return (
     <>
-      <Heading fontSize={"60px"} textAlign="center">
+      <Heading fontSize={{ base: "35px", lg: "60px" }} textAlign="center">
         Tracks and Challenges
       </Heading>
       <Box className={styles.tracksChallenges} display="flex">
