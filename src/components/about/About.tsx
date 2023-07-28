@@ -58,7 +58,6 @@ const RegisterNow = () => {
       <Image
         className={styles.registrationGrid}
         src={"/img/about/registration_grid.png"}
-        zIndex={-2}
         gridArea="1 / 1"
         textAlign="center"
       />
@@ -92,7 +91,6 @@ const About = () => {
             position="absolute"
             left={"-8%"}
             minWidth={"20%"}
-            zIndex={-1}
           />
         </HStack>
         <StickyNote />

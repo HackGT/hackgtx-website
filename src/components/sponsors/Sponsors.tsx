@@ -23,13 +23,6 @@ const Sponsors = () => {
         position: "relative",
       }}
     >
-      <NextImage
-        src="/img/global/grid-background-image.png"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-        objectPosition="center"
-      />
       <VStack>
       <div
         style={{

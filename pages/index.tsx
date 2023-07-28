@@ -34,7 +34,6 @@ const Home: NextPage = (props) => {
       <section id="about">
         <About />
       </section>
-
       <section id="tracks_and_challenges">
         <TracksChallenges />
       </section>

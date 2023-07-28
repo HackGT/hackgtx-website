@@ -1,6 +1,6 @@
 import { Center, Text, VStack, Image } from "@chakra-ui/react";
 import React from "react";
-import NextImage from "next/image"
+import NextImage from "next/image";
 
 import styles from "./Schedule.module.scss";
 
@@ -17,15 +17,7 @@ const ScheduleTab: React.FC<Props> = (props: Props) => (
       width: 1440,
       height: 1024,
       position: "relative",
-    }}
-    >
-      <NextImage
-        src="/img/global/grid-background-image.png"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-        objectPosition="center"
-      />
+    }}>
     <VStack>
       <div
         style={{
