@@ -8,7 +8,7 @@ import TracksChallenges from "../src/components/tracks_and_challenges/TracksChal
 
 import links from "../src/components/navbar/nav.json";
 import Navbar from "../src/components/navbar/Navbar";
-import ScheduleTab from "../src/components/schedule/ScheduleTab";
+import Schedule from "../src/components/schedule/Schedule";
 import Footer from "../src/components/footer/Footer";
 
 // import Image from "@chakra-ui/react";
@@ -37,11 +37,11 @@ const Home: NextPage = (props) => {
       <section id="tracks_and_challenges">
         <TracksChallenges />
       </section>
+      <section id="schedule">
+        <Schedule/>
+      </section>
       <section id="faq">
         <Faq />
-      </section>
-      <section id="schedule">
-        <ScheduleTab virtual={false} />
       </section>
       <section id="sponsors">
         <Sponsors />
