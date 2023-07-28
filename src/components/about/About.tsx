@@ -79,13 +79,12 @@ const About = () => {
     <Box
       className={styles.about}
       my={24}
-      px={[2, "5%"]}
       display="flex"
       justifyContent={"center"}
       alignItems="center">
       <VStack className={styles.aboutStack} spacing={8}>
         <HStack>
-          <Heading fontSize={"70px"}>About</Heading>
+          <Heading fontSize={"60px"}>About</Heading>
           <Image
             className={styles.aboutEllipse}
             src={"/img/about/about-ellipse.png"}
@@ -97,14 +96,6 @@ const About = () => {
           />
         </HStack>
         <StickyNote />
-        <Image
-          className={styles.laptop}
-          src="/img/about/laptop.png"
-          width="25%"
-          position="absolute"
-          bottom={"0%"}
-          left="0%"
-        />
         <RegisterNow />
       </VStack>
     </Box>
