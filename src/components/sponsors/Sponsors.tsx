@@ -34,7 +34,8 @@ const Sponsors = () => {
           gridArea="1 / 1"
           textAlign="center"
           alignSelf="center"
-          borderRadius="10px">
+          borderRadius="10px"
+          fontSize={{ sm: "20px", lg: "35px" }}>
           Sponsors <br /> coming soon!
         </Heading>
       </Box>

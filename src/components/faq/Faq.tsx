@@ -26,7 +26,8 @@ const Faq = () => {
           textAlign="center"
           alignSelf="center"
           borderRadius="10px"
-          paddingRight="7%">
+          paddingRight="7%"
+          fontSize={{ sm: "20px", lg: "35px" }}>
           FAQs <br /> coming soon!
         </Heading>
       </Box>

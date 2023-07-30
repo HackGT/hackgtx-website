@@ -30,7 +30,7 @@ const TopHalf = () => {
         />
         <Image
           className={styles.brown_blurb}
-          src="/svg/home/brown_blurb.svg"
+          src="/img/home/brown_blurb.png"
           alt="brown_blurb"
           width="30%"
         />

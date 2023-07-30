@@ -57,8 +57,8 @@ const RegisterNow = () => {
         gridArea="1 / 1"
         textAlign="center"
         alignSelf="center"
-        borderRadius="10px">
-        Registration is <br /> now open!
+        >
+        Registration is now open!
       </Heading>
     </Box>
   );
