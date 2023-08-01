@@ -10,6 +10,7 @@ import {
   Alert,
   AlertIcon,
   AlertTitle,
+  Link,
   AlertDescription,
 } from "@chakra-ui/react";
 import styles from "./About.module.scss";
@@ -21,6 +22,7 @@ const StickyNote = () => {
     <Box className={styles.aboutNotepad} width="90%">
       <Center>
         <Text
+          className={styles.aboutNotepadText}
           fontSize={{ sm: "15px", lg: "20px" }}
           px="3%"
           py="2%"
@@ -38,6 +40,16 @@ const StickyNote = () => {
           and showcase their ideas. HackGT brings you an action-packed,
           memorable weekend filled with networking opportunities,
           community-building activities, and aesthetic swag!
+          <br /> <br />
+          <Text fontWeight={800}>Travel Reimbursements</Text>
+          We send buses to schools and provide travel reimbursements! Check out
+          our{" "}
+          <Link
+            fontWeight="bold"
+            href="https://hexlabs.notion.site/HackGT-X-Travel-Assistance-fcabb1567680459c893ecb245fe6e8a7?pvs=4">
+            travel reimbursement page
+          </Link>{" "}
+          for more information and make sure to apply before August 19th!
         </Text>
       </Center>
     </Box>
@@ -56,14 +68,16 @@ const RegisterNow = () => {
         src={"/img/about/registration_grid.png"}
         gridArea="1 / 1"
         textAlign="center"
+        alt="Grid box"
       />
       <Heading
         className={styles.registerNowText}
-        fontSize={{ sm: "20px", lg: "35px" }}
+        fontSize={{ sm: "18px", lg: "30px" }}
         gridArea="1 / 1"
         textAlign="center"
         alignSelf="center">
-        Registration is now open!
+        Registration is now open until September 9th <br />
+        (August 19th for travel reimbursement)!
       </Heading>
     </Box>
   );
@@ -85,24 +99,24 @@ const About = () => {
             width={"30%"}
             position="absolute"
             left={"-8%"}
+            alt="Ellipse"
           />
         </HStack>
         <StickyNote />
         <RegisterNow />
-        <Alert
-          className={styles.alert}
-          width="50%">
+        <Alert className={styles.alert} width="80%">
           <AlertIcon />
-          <AlertDescription fontSize={{"base": "10px", "lg": "20px"}}>
+          <AlertDescription fontSize={{ base: "10px", lg: "20px" }}>
             Participants will only be able to submit their project to ONE of the
             five tracks. In addition, each track will have the option to be
-            submitted as either emerging or advanced. You don't need to have any
-            experience to join in! New, beginning hackers can submit to emerging
-            levels for a more approachable, beginner-friendly experience
-            enriched with workshops and project support, while more seasoned
-            hackers can throw their hat in the ring for a higher stakes pool of
-            competition! We're here to meet you on your hacking journey at any
-            level!
+            submitted as either emerging or advanced. You don&apos;t need to
+            have any experience to join in! <br />
+            <br />
+            New, beginning hackers can submit to emerging levels for a more
+            approachable, beginner-friendly experience enriched with workshops
+            and project support, while more seasoned hackers can throw their hat
+            in the ring for a higher stakes pool of competition! We&apos;re here
+            to meet you on your hacking journey at any level!
           </AlertDescription>
         </Alert>
         <br />

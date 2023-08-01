@@ -52,7 +52,7 @@ const TracksChallenges = () => {
           />
         </Box>
         <Box flexDirection="column">
-          <Image src={airplane} />
+          <Image src={airplane} alt="airplane" />
           <TrackCard
             trackName={tracks[2].trackName}
             trackDescription={tracks[2].trackDescription}

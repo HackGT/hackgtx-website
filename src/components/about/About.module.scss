@@ -8,7 +8,7 @@
   opacity: 0.9;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .aboutStack {
     display: flex;
     flex-direction: column;
@@ -29,8 +29,25 @@
   }
 
   .about {
+    .aboutStack {
+      width: 90%;
+    }
+
+    .aboutNotepad {
+      width: 90%;
+    }
+
+    .aboutNotepadText {
+      width: 90%;
+    }
+
     .alert {
       width: 90%;
+      word-wrap: break-word;
+    }
+
+    .registerNowText {
+      font-size: 13px;
     }
   }
 }
