@@ -15,21 +15,25 @@ const Question = (qp: QuestionProps) => {
       className={styles.clickable}
       onClick={() => {
         setArrowDirection(!arrowDirection);
-      }}
-    >
-      <Text className={`${styles.question} ${styles.both}`}>{qp.question}</Text>
+      }}>
+      <Text
+        className={`${styles.question} ${styles.both}`}
+        fontFamily="Scrapbook"
+        fontSize={{"base": "20px", "lg": "25px"}}>
+        {qp.question}
+      </Text>
       {arrowDirection ? (
         <Image
-        className={styles.arrow}
-        alt="arrow up"
-        fontStyle="bold"
-        src="/svg/faq/up_arrow.svg"
+          className={styles.arrow}
+          alt="arrow up"
+          fontStyle="bold"
+          src="/svg/faq/up_arrow.svg"
         />
-        ) : (
-        <Image 
-        className={styles.arrow}
-        alt="arrow down" 
-        src="/svg/faq/down_arrow.svg"
+      ) : (
+        <Image
+          className={styles.arrow}
+          alt="arrow down"
+          src="/svg/faq/down_arrow.svg"
         />
       )}
     </HStack>

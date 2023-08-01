@@ -1,89 +1,62 @@
 @import "../styles/variables.scss";
 
-@media only screen and (min-width: 1441px) {
-  .container {
-    width: 100% !important;
-    zoom: 1.33 !important;
+.container {
+  color: black;
+  padding-bottom: $p3/2;
+  padding-top: $p3/1.2;
+  position: relative;
+}
+
+.arrow {
+  width: 30px;
+}
+
+.link {
+  color: teal;
+  font-weight: bold;
+}
+
+.faq_box {
+  padding-bottom: $p2;
+  #game_console {
+    z-index: 3;
   }
 }
 
+#space {
+  height: 20px;
+}
 
-// .container {
-//   color: whitesmoke;
-//   padding-bottom: $p3/2;
-//   padding-top: $p3/1.2;
-//   position: relative;
-// }
+.qa_shape {
+  position: relative;
+  z-index: 3;
+  .clickable {
+    cursor: pointer;
+  }
 
-// .arrow {
-//   width: 30px;
-// }
+  .both {
+    width: $faq;
+    border-radius: 10px;
+    text-align: left;
+    padding: $p1/3 $p1/2 $p1/3 $p1/2;
+  }
+}
 
-// .link {
-//   color: plum;
-//   font-weight: bold;
-// }
-
-// .faq_box {
-//   padding-bottom: $p2;
-//   #game_console {
-//     z-index: 3;
-//   }
-
-//   .title {
-//     font-size: $header;
-//     font-family: "Scrapbook";
-//     z-index: 3;
-//     font-weight: bold;
-//     color: black
-//   }
-// }
-
-// #space {
-//   height: 20px;
-// }
-
-// .qa_shape {
-//   position: relative;
-//   z-index: 3;
-//   font-family: "Titillium Web";
-//   .question {
-//     font-size: 18px;
-//   }
-//   .clickable {
-//     cursor: pointer;
-//   }
-
-//   .answer {
-//     font-size: 18px/1.2;
-//     color: whitesmoke;
-//     z-index: 3;
-//   }
-
-//   .both {
-//     width: $faq;
-//     border-radius: 10px;
-//     text-align: left;
-//     padding: $p1/3 $p1 $p1/3 $p1;
-//     opacity: 90%;
-//   }
-// }
-
-// @media (max-width: 480px) {
-//   .faq_box {
-//     .title {
-//       font-size: $headerMobile;
-//     }
-//   }
-//   .qa_shape {
-//     .question {
-//       font-size: $pv2;
-//     }
-//     .answer {
-//       font-size: $pv2/1.2;
-//     }
-//     .both {
-//       padding-left: 2vw;
-//     }
-//   }
-// }
+@media (max-width: 480px) {
+  .faq_box {
+    .title {
+      font-size: $headerMobile;
+    }
+  }
+  .qa_shape {
+    .question {
+      font-size: $pv2;
+    }
+    .answer {
+      font-size: $pv2/1.2;
+    }
+    .both {
+      padding-left: 2vw;
+    }
+  }
+}

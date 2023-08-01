@@ -6,7 +6,15 @@ interface AnswerProps {
 }
 
 const Answer = (ap: AnswerProps) => {
-  return <Text className={`${styles.answer} ${styles.both}`}>{ap.answer}</Text>;
+  return (
+    <Text
+      className={`${styles.answer} ${styles.both}`}
+      fontFamily="Be Vietnam Pro"
+      fontStyle={"normal"}
+      fontSize={{"base": "15px", "lg": "20px"}}>
+      {ap.answer}
+    </Text>
+  );
 };
 
 export default Answer;

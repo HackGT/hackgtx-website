@@ -11,28 +11,38 @@ const QA = () => {
         className={styles.clickable}
         onClick={() => {
           setQuestionClicked(!questionClicked);
-        }}
-      >
+        }}>
         <HStack>
-          <Text className={`${styles.question} ${styles.both}`}>
+          <Text
+            className={`${styles.question} ${styles.both}`}
+            fontFamily="Scrapbook">
             How does the admissions process work?
           </Text>
           {questionClicked ? (
-            <Image className={styles.arrow} alt="arrow up" src="svg/faq/up_arrow.svg" />
+            <Image
+              className={styles.arrow}
+              alt="arrow up"
+              src="svg/faq/up_arrow.svg"
+            />
           ) : (
-            <Image alt="arrow down" className={styles.arrow} src="/svg/faq/down_arrow.svg" />
+            <Image
+              alt="arrow down"
+              className={styles.arrow}
+              src="/svg/faq/down_arrow.svg"
+            />
           )}
         </HStack>
       </Box>
       {questionClicked ? (
-        <Text className={`${styles.answer} ${styles.both}`}>
+        <Text
+          className={`${styles.answer} ${styles.both}`}
+          fontFamily="Be Vietnam Pro">
           If {"you're"} interested in our admissions process you can read more{" "}
           <a
             className={styles.link}
             target="_blank"
             rel="noreferrer"
-            href="https://medium.com/@thehexlabs/hackgt-9-admissions-9129effe4467"
-          >
+            href="https://medium.com/@thehexlabs/hackgt-9-admissions-9129effe4467">
             here
           </a>{" "}
           !

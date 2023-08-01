@@ -1,7 +1,6 @@
-import { Center, Image, Text, VStack, Heading, Box } from "@chakra-ui/react";
+import { Image, Text, VStack, Heading, Center } from "@chakra-ui/react";
 import QA from "./QA";
 import styles from "./Faq.module.scss";
-import NextImage from "next/image";
 
 import qas from "./FAQ.json";
 import HardwareQ from "./HardwareQ";
@@ -9,29 +8,30 @@ import AdmissionQ from "./AdmissionQ";
 
 const Faq = () => {
   return (
-    <Center>
-      <Box
-        display="grid"
-        justifyContent="center"
-        alignContent="center"
-        width="60%">
-        <Image
-          src="/img/global/orange_sticky.png"
-          alt="schedule"
-          gridArea="1 / 1"
-          textAlign="center"
-        />
-        <Heading
-          gridArea="1 / 1"
-          textAlign="center"
-          alignSelf="center"
-          borderRadius="10px"
-          paddingRight="7%"
-          fontSize={{ sm: "20px", lg: "35px" }}>
-          FAQs <br /> coming soon!
-        </Heading>
-      </Box>
-    </Center>
+    <div className={styles.container}>
+      <Center>
+        <Heading fontSize={{ base: "35px", lg: "60px" }} paddingBottom="20px">FAQ</Heading>
+      </Center>
+      <VStack spacing={"20px"}>
+        {qas.qas.map((entry) =>
+          // IMPORTANT uncomment once the blog post is made
+          entry.question == "specialQs" ? (
+            <div key="null">
+              {/* look at this great css. there's got to be a way to store links in a uniform data format */}
+              {/* <AdmissionQ />
+              <div id={styles.space} />
+              <HardwareQ /> */}
+            </div>
+          ) : (
+            <QA
+              key={entry.question}
+              question={entry.question}
+              answer={entry.answer}
+            />
+          )
+        )}
+      </VStack>
+    </div>
   );
 };
 
