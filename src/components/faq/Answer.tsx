@@ -11,7 +11,8 @@ const Answer = (ap: AnswerProps) => {
       className={`${styles.answer} ${styles.both}`}
       fontFamily="Be Vietnam Pro"
       fontStyle={"normal"}
-      fontSize={{"base": "15px", "lg": "20px"}}>
+      fontSize={{ base: "15px", lg: "20px" }}
+      marginLeft="15px">
       {ap.answer}
     </Text>
   );

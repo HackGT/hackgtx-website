@@ -5,6 +5,14 @@
   padding-bottom: $p3/2;
   padding-top: $p3/1.2;
   position: relative;
+
+  .clickable {
+    background-color: #b2e2d8;
+  }
+
+  .answer {
+    border: 2px black solid;
+  }
 }
 
 .arrow {
@@ -12,19 +20,8 @@
 }
 
 .link {
-  color: teal;
+  color: #b2e2d8;
   font-weight: bold;
-}
-
-.faq_box {
-  padding-bottom: $p2;
-  #game_console {
-    z-index: 3;
-  }
-}
-
-#space {
-  height: 20px;
 }
 
 .qa_shape {
@@ -36,7 +33,6 @@
 
   .both {
     width: $faq;
-    border-radius: 10px;
     text-align: left;
     padding: $p1/3 $p1/2 $p1/3 $p1/2;
   }

@@ -10,7 +10,9 @@ const Faq = () => {
   return (
     <div className={styles.container}>
       <Center>
-        <Heading fontSize={{ base: "35px", lg: "60px" }} paddingBottom="20px">FAQ</Heading>
+        <Heading fontSize={{ base: "35px", lg: "60px" }} paddingBottom="20px">
+          FAQ
+        </Heading>
       </Center>
       <VStack spacing={"20px"}>
         {qas.qas.map((entry) =>
