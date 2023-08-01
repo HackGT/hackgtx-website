@@ -1,11 +1,19 @@
 {
   "qas": [
     {
-      "question": "It's my first hackathon. Should I apply?",
-      "answer": "No! Experience is not required. Hackathons are open creative and learning environments for everyone. If you are new to hackathons, the Emerging Hacker track may be for you!"
+      "question": "What is HackGT?",
+      "answer": "HackGT is HexLabs' free, 36-hour, annual hackathon where students from across the world come together for a weekend in the fall to create innovative projects that show off their creativity and passion for development. You have the freedom to choose any platform, programming language, or format to show how you build solutions.\nParticipating in this event will widen your professional network, build your portfolio, and allow you to put your creativity into production! With tech talks and workshops, you will also have the opportunity to talk to and learn from professionals in various industries. We encourage everyone to be a part of our hacker community at HackGT X regardless of location, major, or prior hacking experience."
     },
     {
-      "question": "Can I participate?",
+      "question": "It's my first hackathon. Should I apply?",
+      "answer": "Yes! Experience is not required. Hackathons are open creative and learning environments for everyone. If you are new to hackathons, the Emerging Hacker track may be for you!"
+    },
+    {
+      "question": "When does registration open?",
+      "answer": "Registration opens July 31st! Keep an eye out on our socials and subscribe to our newsletter for more information, coming soon 👀"
+    },
+    {
+      "question": "Can I apply?",
       "answer": "Any student over the age of 18 enrolled in any college or university is allowed to participate. If you are younger than 18, but a Georgia Tech student, you can still participate. Hacking experience is not required. Hackathons are open creative and learning environments for everyone- stay curious and try your best!"
     },
     {
