@@ -19,7 +19,7 @@ const Question = (qp: QuestionProps) => {
       <Text
         className={`${styles.question} ${styles.both}`}
         fontFamily="Scrapbook"
-        fontSize={{ base: "20px", lg: "25px" }}>
+        fontSize={{ base: "18px", lg: "22px" }}>
         {qp.question}
       </Text>
       {arrowDirection ? (

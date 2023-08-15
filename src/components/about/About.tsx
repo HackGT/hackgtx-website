@@ -2,20 +2,16 @@ import {
   Text,
   Image,
   Center,
-  Stack,
   Box,
   Heading,
   VStack,
   HStack,
   Alert,
   AlertIcon,
-  AlertTitle,
   Link,
   AlertDescription,
 } from "@chakra-ui/react";
 import styles from "./About.module.scss";
-import NextImage from "next/image";
-import Head from "next/head";
 
 const StickyNote = () => {
   return (
@@ -23,7 +19,7 @@ const StickyNote = () => {
       <Center>
         <Text
           className={styles.aboutNotepadText}
-          fontSize={{ sm: "15px", lg: "20px" }}
+          fontSize={{ sm: "12px", lg: "18px" }}
           px="3%"
           py="2%"
           top="0"
@@ -62,7 +58,8 @@ const RegisterNow = () => {
       className={styles.registerNow}
       display="grid"
       justifyContent="center"
-      alignContent="center">
+      alignContent="center"
+      width="70%">
       <Image
         className={styles.registrationGrid}
         src={"/img/about/registration_grid.png"}
@@ -72,7 +69,7 @@ const RegisterNow = () => {
       />
       <Heading
         className={styles.registerNowText}
-        fontSize={{ sm: "18px", lg: "30px" }}
+        fontSize={{ sm: "12px", lg: "24px" }}
         gridArea="1 / 1"
         textAlign="center"
         alignSelf="center">
@@ -92,7 +89,7 @@ const About = () => {
       alignItems="center">
       <VStack className={styles.aboutStack} spacing={8}>
         <HStack py="8%">
-          <Heading fontSize={{ base: "35px", lg: "60px" }}>About</Heading>
+          <Heading fontSize={{ base: "28px", lg: "48px" }}>About</Heading>
           <Image
             className={styles.aboutEllipse}
             src={"/img/about/about-ellipse.png"}
@@ -106,7 +103,9 @@ const About = () => {
         <RegisterNow />
         <Alert className={styles.alert} width="80%">
           <AlertIcon />
-          <AlertDescription fontSize={{ base: "10px", lg: "20px" }}>
+          <AlertDescription
+            fontSize={{ base: "12px", lg: "18px" }}
+            fontFamily="Be Vietnam Pro">
             Participants will only be able to submit their project to ONE of the
             five tracks. In addition, each track will have the option to be
             submitted as either emerging or advanced. You don&apos;t need to

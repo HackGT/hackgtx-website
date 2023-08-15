@@ -20,11 +20,13 @@ const TrackCard = (props: trackCardProps) => {
           background={props.color}
           border="1px black solid"
           boxShadow="4px 4px 4px rgba(0, 0, 0, 0.5)">
-          <Text fontFamily={"Scrapbook"} fontSize="20px">
+          <Text
+            fontFamily={"Scrapbook"}
+            fontSize={{ base: "16px", lg: "20px" }}>
             {props.trackName}
           </Text>
         </Box>
-        <Text textAlign="center" fontSize="20px">
+        <Text textAlign="center" fontSize={{ base: "16px", lg: "20px" }}>
           {props.trackDescription}
         </Text>
       </VStack>
@@ -35,7 +37,7 @@ const TrackCard = (props: trackCardProps) => {
 const TracksChallenges = () => {
   return (
     <>
-      <Heading fontSize={{ base: "35px", lg: "60px" }} textAlign="center">
+      <Heading fontSize={{ base: "28px", lg: "48px" }} textAlign="center">
         Tracks and Challenges
       </Heading>
       <Box className={styles.tracksChallenges} display="flex">

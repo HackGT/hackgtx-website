@@ -1,16 +1,5 @@
-import {
-  Center,
-  Grid,
-  HStack,
-  Image,
-  Text,
-  VStack,
-  Wrap,
-  Box,
-  Heading,
-} from "@chakra-ui/react";
+import { Center, Image, Box, Heading } from "@chakra-ui/react";
 import { useState } from "react";
-import NextImage from "next/image";
 
 import styles from "./Sponsors.module.scss";
 

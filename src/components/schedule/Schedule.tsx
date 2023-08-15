@@ -1,10 +1,5 @@
-import React, { useState, useEffect } from "react";
-import dateFormat from "dateformat";
-import { Box, Center, VStack, Image, Heading } from "@chakra-ui/react";
-
-import { EventRow } from "./EventRow";
-
-import styles from "./Schedule.module.scss";
+import React from "react";
+import { Box, Center, Image, Heading } from "@chakra-ui/react";
 
 const Schedule = () => {
   return (
