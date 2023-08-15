@@ -1,5 +1,10 @@
 @import "../styles/variables.scss";
 
+.tracksChallenges {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
 @media (max-width: 800px) {
   .tracksChallenges {
     flex-wrap: wrap;
