@@ -45,7 +45,7 @@ const StickyNote = () => {
             href="https://hexlabs.notion.site/HackGT-X-Travel-Assistance-fcabb1567680459c893ecb245fe6e8a7?pvs=4">
             travel reimbursement page
           </Link>{" "}
-          for more information and make sure to apply before August 19th!
+          for more information and make sure to apply before August 27th!
         </Text>
       </Center>
     </Box>
@@ -74,7 +74,7 @@ const RegisterNow = () => {
         textAlign="center"
         alignSelf="center">
         Registration is now open until September 11th <br />
-        (August 19th for travel reimbursement)!
+        (August 27th for travel reimbursement)!
       </Heading>
     </Box>
   );
