@@ -73,8 +73,7 @@ const RegisterNow = () => {
         gridArea="1 / 1"
         textAlign="center"
         alignSelf="center">
-        Registration is now open until September 11th <br />
-        (August 27th for travel reimbursement)!
+        Registration is now open until September 18th!
       </Heading>
     </Box>
   );
