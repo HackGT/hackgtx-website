@@ -12,7 +12,7 @@
   opacity: 0.9;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .aboutStack {
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@
     }
 
     .registerNowText {
-      font-size: 13px;
+      font-size: 11px;
     }
 
     .registrationGrid {
