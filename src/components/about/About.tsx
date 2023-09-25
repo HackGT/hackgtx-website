@@ -73,7 +73,7 @@ const RegisterNow = () => {
         gridArea="1 / 1"
         textAlign="center"
         alignSelf="center">
-        Registration is now open until September 18th! <br /><br /> Mentor and Volunteer applications are also open <br /> until September 30th!
+        Registration is <strong>closed</strong>! <br /><br /> Mentor and Volunteer applications will be open <br /> until September 30th!
       </Heading>
     </Box>
   );
