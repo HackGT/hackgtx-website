@@ -36,8 +36,9 @@ const StickyNote = () => {
           and showcase their ideas. HackGT brings you an action-packed,
           memorable weekend filled with networking opportunities,
           community-building activities, and aesthetic swag!
+          {/*
           <br /> <br />
-          <Text fontWeight={800}>Travel Reimbursements</Text>
+           <Text fontWeight={800}>Travel Reimbursements</Text>
           We send buses to schools and provide travel reimbursements! Check out
           our{" "}
           <Link
@@ -45,7 +46,7 @@ const StickyNote = () => {
             href="https://hexlabs.notion.site/HackGT-X-Travel-Assistance-fcabb1567680459c893ecb245fe6e8a7?pvs=4">
             travel reimbursement page
           </Link>{" "}
-          for more information and make sure to apply before August 27th!
+          for more information and make sure to apply before August 27th! */}
         </Text>
       </Center>
     </Box>
