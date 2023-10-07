@@ -8,7 +8,7 @@ const Schedule = () => {
         display="grid"
         justifyContent="center"
         alignContent="center"
-        width="60%">
+        width="70%">
         <Image
           src="/img/global/green_sticky.png"
           alt="schedule"
@@ -19,9 +19,8 @@ const Schedule = () => {
           gridArea="1 / 1"
           textAlign="center"
           alignSelf="center"
-          borderRadius="10px"
           fontSize={{ sm: "20px", lg: "35px" }}>
-          Schedule <br /> coming soon!
+          You can find our schedule<br/> on <a href="https://live.hexlabs.org">live.hexlabs.org</a>!
         </Heading>
       </Box>
     </Center>

@@ -13,20 +13,17 @@ const Sponsors = () => {
         justifyContent="center"
         alignContent="center"
         width="60%">
-        <Image
-          src="/img/global/green_sticky.png"
-          alt="schedule"
-          gridArea="1 / 1"
-          textAlign="center"
-        />
         <Heading
           gridArea="1 / 1"
           textAlign="center"
           alignSelf="center"
           borderRadius="10px"
           fontSize={{ sm: "20px", lg: "35px" }}>
-          Sponsors <br /> coming soon!
+          Thank you so much to our sponsors!
         </Heading>
+        <br/><br/>
+        <Image src="/img/sponsors.png" alt="sponsors" />
+        <br/><br/>
       </Box>
     </Center>
   );
